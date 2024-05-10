@@ -1,13 +1,15 @@
 # Mac OS system files
 .DS_Store
+._*
+Icon?
 
 # Python files
 *.pyc
 __pycache__/
+*.egg-info/
 
 # Virtual environment
 venv/
 
-
 # IDE
-.vscode
+.vscode/
