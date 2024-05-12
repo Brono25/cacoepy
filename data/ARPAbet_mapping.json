@@ -1,0 +1,110 @@
+{
+    "consonant_attributes": [
+        "alveolar"   , "palatal"    , "glottal"    , "dental"     ,
+        "labial"     , "bilabial"   , "labiodental", "coronal"    ,
+        "dorsal"     , "anterior"   , "posterior"  , "semivowel"  ,
+        "fricative"  , "nasal"      , "stop"       , "approximant",
+        "affricate"  , "liquid"     , "retroflex"  , "velar"      ,
+        "sonorant"   , "obstruent"  , "continuant"
+    ],
+    "vowel_attributes": [
+        "long"     , "short"    , "low"      , "mid"      , "high"     ,
+        "front"    , "central"  , "back"     , "round"    , "diphthong", "voiced"
+    ],
+    "phoneme_attribute_map": {
+        "b": ["labial", "bilabial", "anterior", "stop", "obstruent", "voiced"],
+        "ch": ["palatal", "coronal", "posterior", "affricate", "obstruent"],
+        "d": [
+            "alveolar" , "coronal"  , "anterior" , "stop"     , "obstruent",
+            "voiced"
+        ],
+        "g": ["dorsal", "posterior", "stop", "velar", "obstruent", "voiced"],
+        "jh": [
+            "palatal"  , "coronal"  , "posterior", "affricate", "obstruent",
+            "voiced"
+        ],
+        "k": ["dorsal", "posterior", "stop", "velar", "obstruent"],
+        "p": ["labial", "bilabial", "anterior", "stop", "obstruent"],
+        "t": ["alveolar", "coronal", "anterior", "stop", "obstruent"],
+        "dh": [
+            "dental"    , "coronal"   , "anterior"  , "fricative" ,
+            "obstruent" , "continuant", "voiced"
+        ],
+        "f": [
+            "labial"     , "labiodental", "coronal"    , "anterior"   ,
+            "fricative"  , "obstruent"  , "continuant"
+        ],
+        "hh": [
+            "glottal"   , "dorsal"    , "posterior" , "fricative" ,
+            "obstruent" , "continuant"
+        ],
+        "l": [
+            "alveolar"   , "coronal"    , "anterior"   , "approximant",
+            "liquid"     , "sonorant"   , "continuant" , "voiced"
+        ],
+        "m": [
+            "labial"    , "bilabial"  , "anterior"  , "nasal"     ,
+            "sonorant"  , "continuant", "voiced"
+        ],
+        "n": [
+            "alveolar"  , "coronal"   , "anterior"  , "nasal"     ,
+            "sonorant"  , "continuant", "voiced"
+        ],
+        "ng": [
+            "dorsal"    , "posterior" , "nasal"     , "velar"     ,
+            "sonorant"  , "continuant", "voiced"
+        ],
+        "r": [
+            "alveolar"   , "coronal"    , "anterior"   , "approximant",
+            "liquid"     , "retroflex"  , "sonorant"   , "continuant" ,
+            "voiced"
+        ],
+        "s": [
+            "alveolar"  , "coronal"   , "anterior"  , "fricative" ,
+            "obstruent" , "continuant"
+        ],
+        "sh": [
+            "palatal"   , "coronal"   , "posterior" , "fricative" ,
+            "obstruent" , "continuant"
+        ],
+        "th": [
+            "dental"    , "coronal"   , "anterior"  , "fricative" ,
+            "obstruent" , "continuant"
+        ],
+        "v": [
+            "labial"     , "labiodental", "coronal"    , "anterior"   ,
+            "fricative"  , "obstruent"  , "continuant" , "voiced"
+        ],
+        "w": [
+            "labial"     , "bilabial"   , "anterior"   , "semivowel"  ,
+            "approximant", "sonorant"   , "continuant" , "voiced"
+        ],
+        "y": [
+            "palatal"    , "coronal"    , "posterior"  , "semivowel"  ,
+            "approximant", "sonorant"   , "continuant" , "voiced"
+        ],
+        "z": [
+            "alveolar"  , "coronal"   , "anterior"  , "fricative" ,
+            "obstruent" , "continuant", "voiced"
+        ],
+        "zh": [
+            "palatal"   , "coronal"   , "posterior" , "fricative" ,
+            "obstruent" , "continuant", "voiced"
+        ],
+        "aa": ["long", "low", "back", "voiced"],
+        "ae": ["long", "low", "front", "voiced"],
+        "ah": ["short", "mid", "back", "voiced"],
+        "ao": ["long", "mid", "back", "round", "voiced"],
+        "eh": ["short", "mid", "front", "voiced"],
+        "er": ["short", "mid", "central", "voiced"],
+        "ih": ["short", "high", "front", "voiced"],
+        "iy": ["long", "high", "front", "voiced"],
+        "uh": ["short", "high", "back", "round", "voiced"],
+        "uw": ["long", "high", "back", "round", "voiced"],
+        "aw": ["long", "low", "central", "round", "diphthong", "voiced"],
+        "ay": ["long", "low", "central", "diphthong", "voiced"],
+        "ey": ["long", "mid", "front", "diphthong", "voiced"],
+        "ow": ["long", "mid", "central", "round", "diphthong", "voiced"],
+        "oy": ["long", "mid", "back", "round", "diphthong", "voiced"]
+    }
+}
