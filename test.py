@@ -1,11 +1,11 @@
-from cacoepy.ARPAbet_substitution_matrix import arpabet_substitution_matrix
-from cacoepy.Needleman_Wunsch import NeedlemanWunsch, NeedlemanWunschConfig
-from cacoepy.utils import pretty_sequences
-
+from cacoepy.core.ARPAbet_substitution_matrix import arpabet_substitution_matrix
+from cacoepy.core.Needleman_Wunsch import NeedlemanWunsch2D, NeedlemanWunschConfig
+from cacoepy.core.utils import pretty_sequences
+import sys
 
 def compare_schemes(seq1, seq2, basic_aligner, arpabet_aligner):
-    basic_seq1, basic_seq2 = basic_aligner(seq2, seq1)
-    arpa_seq1, arpa_seq2 = arpabet_aligner(seq2, seq1)
+    basic_seq1, basic_seq2 = basic_aligner(seq1, seq2)
+    arpa_seq1, arpa_seq2 = arpabet_aligner(seq1, seq2)
     print("Basic:")
     pretty_sequences(basic_seq1, basic_seq2)
     print()
@@ -17,18 +17,28 @@ if __name__ == "__main__":
 
     def basic_score_method(a, b):
         if a == b:
-            return 5
+            return 1
         else:
-            return -5
+            return -1
+
+    basic_config = NeedlemanWunschConfig(gap_penalty=2, substitution=basic_score_method)
+    basic_aligner = NeedlemanWunsch2D(config=basic_config)
+
+    seq1 = list("GATTACA")
+    seq2 = list("GTCGACGCA")
+    compare_schemes(seq1, seq2, basic_aligner, basic_aligner)
+
+    print(basic_aligner)
+    sys.exit()
 
     gap_penalty = 4
 
     basic_config = NeedlemanWunschConfig(gap_penalty=gap_penalty, substitution=basic_score_method)
-    basic_aligner = NeedlemanWunsch(config=basic_config)
+    basic_aligner = NeedlemanWunsch2D(config=basic_config)
 
     arpabet_matrix = arpabet_substitution_matrix()
     arpabet_config = NeedlemanWunschConfig(gap_penalty=gap_penalty, substitution=arpabet_matrix)
-    arpabet_aligner = NeedlemanWunsch(config=arpabet_config)
+    arpabet_aligner = NeedlemanWunsch2D(config=arpabet_config)
 
     seq1 = "dh ah m".split(" ")
     seq2 = "d iy ah m".split(" ")

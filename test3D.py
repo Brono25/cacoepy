@@ -1,7 +1,7 @@
-from cacoepy.ARPAbet_substitution_matrix import arpabet_substitution_matrix
-from cacoepy.utils import pretty_matrices, pretty_sequences
+from core.ARPAbet_substitution_matrix import arpabet_substitution_matrix
+from core.utils import pretty_matrices, pretty_sequences
 from cacoepy.Needleman_Wunsch3D import NeedlemanWunsch3D
-from cacoepy.Needleman_Wunsch import NeedlemanWunschConfig
+from Needleman_Wunsch2D import NeedlemanWunschConfig
 
 
 
@@ -17,28 +17,28 @@ if __name__ == "__main__":
     config = NeedlemanWunschConfig(gap_penalty=2, substitution=smatrix)
     aligner = NeedlemanWunsch3D(config)
     
-    sa = "k ah m p y uw t er".split(" ")
-    sb = "g ae b uw ow".split(" ")
-    sc = "g ae b uw".split(" ")
-    run(sa, sb, sc, aligner)
+    """   sa = "k ah m p y uw t er".split(" ")
+        sb = "g ae b uw ow".split(" ")
+        sc = "g ae b uw".split(" ")
+        run(sa, sb, sc, aligner)
 
-    sa = "hh eh l ih k aa p t er".split(" ")
-    sb = "hh e l ih k aa p t er".split(" ")
-    sc = "k eh l ih t aa d er".split(" ")
-    run(sa, sb, sc, aligner)
-
-
-    sa = "l eh m ah n ey d".split(" ")
-    sb = "l eh v eh n".split(" ")
-    sc = "n ae b er d ey".split(" ")
-    run(sa, sb, sc, aligner)
+        sa = "hh eh l ih k aa p t er".split(" ")
+        sb = "hh e l ih k aa p t er".split(" ")
+        sc = "k eh l ih t aa d er".split(" ")
+        run(sa, sb, sc, aligner)
 
 
-    sa = "th er m aa m ah t er".split(" ")
-    sb = "b m ih g ow".split(" ")
-    sc = "t er m ao r er".split(" ")
-    run(sa, sb, sc, aligner)
+        sa = "l eh m ah n ey d".split(" ")
+        sb = "l eh v eh n".split(" ")
+        sc = "n ae b er d ey".split(" ")
+        run(sa, sb, sc, aligner)
 
+
+        sa = "th er m aa m ah t er".split(" ")
+        sb = "b m ih g ow".split(" ")
+        sc = "t er m ao r er".split(" ")
+        run(sa, sb, sc, aligner)
+    """
 
     sa = "g r ae s hh aa p er".split(" ")
     sb = "g uh b h ae p er".split(" ")
