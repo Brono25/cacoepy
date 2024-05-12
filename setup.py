@@ -17,7 +17,7 @@ setup(
     author_email="bronston.a@gmail.com",
     url="https://github.com/Brono25/cacoepy.git",
     packages=find_packages(where="src"),
-    package_dir={"": "cacoepy"},
+    package_dir={"": "src"},
     include_package_data=True,
     package_data={
         "": ["data/*.json"],
