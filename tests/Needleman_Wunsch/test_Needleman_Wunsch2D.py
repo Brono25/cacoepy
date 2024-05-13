@@ -1,6 +1,6 @@
 import pytest
 from cacoepy.core.Needleman_Wunsch import NeedlemanWunsch2D, NeedlemanWunschConfig
-
+from cacoepy.core.utils import pretty_sequences
 
 def test_gap_penalties():
     """
@@ -26,8 +26,13 @@ def test_gap_penalties():
 
 def test_correct_output():
     test_cases = [
-        ("GATTACA", "GTCGACGCA", 0, 1, -1, "G-T-CGACGCA", "GATT--AC--A"),
-        ("GATTACA", "GTCGACGCA", 1, 1, -1, "G-TCGACGCA", "GATT-AC--A"),
+        ("GATTACA", "GTCGACGCA", 0, 1, -1, "G--TCGACGCA", "GATT--A--CA"),
+        ("GTCGACGCA", "GATTACA", 1, 1, -1, "GAT-TA--CA", "G-TCGACGCA"),
+        ("GTCGACGCA", "GATTACA", 2, 1, -1, "GATTA--CA", "GTCGACGCA"),
+
+        ("GTCGACGCA", "GATTACA", 0, 1, -1, "GAT--TA--CA", "G-TCG-ACGCA"),
+        ("GATTACA", "GTCGACGCA", 1, 1, -1, "G-TCGACGCA", "GAT-TA--CA"),
+        ("GATTACA", "GTCGACGCA", 2, 1, -1, "GTCGACGCA", "GATTA--CA"),
     ]
 
     for i, (seq1, seq2, gap, match, mismatch, exp_seq1, exp_seq2) in enumerate(test_cases):
@@ -52,5 +57,4 @@ def test_correct_output():
         assert out_seq2 == exp_seq2, f"CASE {i}:\nExpected: {exp_seq2}, \n     Got: {out_seq2}"
 
 
-if __name__ == "__main__":
-    test_correct_output()
+
