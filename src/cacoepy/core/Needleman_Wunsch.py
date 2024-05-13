@@ -36,7 +36,7 @@ class NeedlemanWunschConfig:
 
 
 class NeedlemanWunsch2D:
-    def __init__(self, config=NeedlemanWunschConfig):
+    def __init__(self, config: NeedlemanWunschConfig):
         self.LEFT = "←"
         self.UP = "↑"
         self.DIAG = "↖"
@@ -103,19 +103,18 @@ class NeedlemanWunsch2D:
     def _score_cell(self, i, j):
         row_char = self.top_seq[i]
         col_char = self.left_seq[j]
-        s_ij = self.calculate_score(row_char, col_char)
-        q_diag = self.score_matrix[i - 1][j - 1] + s_ij
-        q_up = self.score_matrix[i - 1][j] - self.config.gap_penalty
-        q_left = self.score_matrix[i][j - 1] - self.config.gap_penalty
-        max_score, direction = max(
-            (q_diag, self.DIAG),
-            (q_up, self.UP),
-            (q_left, self.LEFT),
-            key=lambda x: x[0],
-        )
+        s_ij = self.substitution_score(row_char, col_char)
+        score = {
+            self.DIAG: self.score_matrix[i - 1][j - 1] + s_ij,
+            self.UP: self.score_matrix[i - 1][j] - self.config.gap_penalty,
+            self.LEFT: self.score_matrix[i][j - 1] - self.config.gap_penalty,
+        }
+        direction = max(score, key=score.get)
+        max_score = score[direction]
         return max_score, direction
 
-    def calculate_score(self, char_a, char_b):
+
+    def substitution_score(self, char_a, char_b):
         return self.config._apply_scoring(char_a, char_b)
 
     def __str__(self):

@@ -1,9 +1,7 @@
-import os
 import json
 from cacoepy.core.ARPAbet_substitution_matrix import arpabet_substitution_matrix
-from core.Needleman_Wunsch import NeedlemanWunsch2D, NeedlemanWunschConfig
+from cacoepy.core.Needleman_Wunsch import NeedlemanWunsch2D, NeedlemanWunschConfig
 from cacoepy.core.exceptions import ElementNotInVocabError
-
 
 
 class AlignARPAbet2:
@@ -31,7 +29,7 @@ class AlignARPAbet2:
         for phone in seq:
             if phone not in self._vocab:
                 msg = f"A sequence contains \"{phone}\" which is not an ARPAbet phoneme."
-                raise ElementNotInVocabError(message=msg, element=phone)
+                raise ElementNotInVocabError(message=msg)
         return True
 
     @property
@@ -41,4 +39,3 @@ class AlignARPAbet2:
     @property
     def substitution_matrix(self):
         return self._substitution_matrix
-
