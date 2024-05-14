@@ -36,5 +36,5 @@ The alignment tools in this package use the **Needleman-Wunsch** algorithm in co
 The similarity matrix is constructed by breaking each phoneme into 34 attribute componants. Then each phoneme is represented as a vector in an attribute space. Each pairing of vectors has there cosine similiarty calculated and placed into a 2D matrix which can be used as a lookup table.
 
 <div align="center">
-    <img src="assets/ARPAbet_similarity_matrix.png" alt="SimilarityMatrix" width="700" height="600">
+    <img src="assets/ARPAbet_similarity_matrix_darkmode.png" alt="SimilarityMatrix" width="700" height="600">
 </div>
