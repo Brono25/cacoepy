@@ -6,7 +6,7 @@ from cacoepy.core.exceptions import ElementNotInVocabError
 
 class AlignBasic2:
     def __init__(self):
-        self.gap_penalty = 2
+        self.gap_penalty = -1
         self.match_score = 1
         self.mismatch_score = -1
         self._score = None  
@@ -30,7 +30,7 @@ class AlignBasic2:
 
 
 class AlignARPAbet2:
-    def __init__(self, gap_penalty=-5):
+    def __init__(self, gap_penalty=-4):
         self._similarity_matrix = arpabet_similarity_matrix()
         self._vocab = self._load_vocab()
         self._config = NeedlemanWunschConfig(
