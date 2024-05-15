@@ -1,36 +1,32 @@
-def pretty_matrices(top_seq, left_seq, score_matrix, trace_matrix):
-    N_col = len(left_seq)
-    N_row = len(top_seq)
+def pretty_matrices(matrix,  top_seq=None, left_seq=None, trace_highlight=None):
+    N_row = len(matrix)  
+    N_col = len(matrix[0]) 
+    RED_START = "\033[31m"
+    RED_END = "\033[0m"
+    if not top_seq:
+        top_seq = [""] * (N_col + 1)
+    if not left_seq:
+        left_seq = [""] * (N_row + 1)
 
-    # Create header for score matrix
-    score_header = (
-        "Score Matrix:\n    " + " ".join(f"{phoneme:>3}" for phoneme in left_seq) + "\n"
+    display_matrix = []
+    display_matrix.append([""] + top_seq)
+
+    for i in range(N_row):
+        display_matrix.append([left_seq[i]] + matrix[i])
+
+    for i in range(N_row):
+        for j in range(N_col):
+            if trace_highlight and (i, j) in trace_highlight:
+                display_matrix[i][j] = RED_START +  str(display_matrix[i][j]) + RED_END
+            else:
+                display_matrix[i][j] = str(display_matrix[i][j])
+
+    #max_width = max(max(len(str(item)) for row in display_matrix for item in row) + 2, 5)
+    max_width = 4
+    formatted_matrix = "\n".join(
+        "".join(f"{str(item):>{max_width}}" for item in row) for row in display_matrix
     )
-    score_rows = ""
-    for i, row_phoneme in enumerate(top_seq):
-        row = (
-            f"{row_phoneme:>3} "
-            + " ".join(f"{score_matrix[i][j]:>3}" for j in range(N_col))
-            + "\n"
-        )
-        score_rows += row
-
-    # Create header for trace matrix
-    trace_header = (
-        "\nTraceback Matrix:\n    "
-        + " ".join(f"{phoneme:>3}" for phoneme in left_seq)
-        + "\n"
-    )
-    trace_rows = ""
-    for i, row_phoneme in enumerate(top_seq):
-        row = (
-            f"{row_phoneme:>3} "
-            + " ".join(f"{trace_matrix[i][j]:>3}" for j in range(N_col))
-            + "\n"
-        )
-        trace_rows += row
-
-    return score_header + score_rows + trace_header + trace_rows
+    return formatted_matrix
 
 
 def pretty_sequences(*arrays):
@@ -48,5 +44,3 @@ def pretty_sequences(*arrays):
                 element.ljust(width) for element, width in zip(array, column_widths)
             )
         )
-
-
