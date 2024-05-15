@@ -1,0 +1,752 @@
+{
+    "arctic_b0340.TextGrid": {
+        "words": "these quick little joys of hers were sources of joy to him",
+        "target_phonemes": "sil dh iy z k w ih k l ih t ah l jh oy z sil ah v hh er z sil w er s ao r s ah z ah v jh oy t uw hh ih m sil",
+        "perceived_phonemes": "- dh ih s k w ih k l ih t ah l jh oy s - ah v hh er z - w er s ao r s ah z ah v zh oy t uw hh eh m -"
+    },
+    "arctic_b0126.TextGrid": {
+        "words": "blood was oozing slowly from the wounded man's right breast",
+        "target_phonemes": "sil b l ah d w ao z sil uw z ih ng sil s l ow l iy f r ah m sil dh ah w uw n d ih d sil m ae n z sil r ay t sil b r eh s t sil",
+        "perceived_phonemes": "- b l ah d w ao z - uw dh ih ng - s l ow l iy f r ah m - dh ah w ow n d ih d - m ae n z - r ay t - b r eh s t -"
+    },
+    "arctic_a0116.TextGrid": {
+        "words": "was it the rendezvous of those who were striving to work his ruin",
+        "target_phonemes": "w aa z ih t sil dh ah r aa n d ih v uw sil ah v sil dh ow z hh uw w er sil s t r ay v ih ng - sil t ah w er k hh ih z sil r uw ah n sil",
+        "perceived_phonemes": "w aa z eh t - dh ah r eh n d ih v uw - ah v - dh ow z hh uw w er - s t r ay v ih ng k - t ah w er k hh eh z - r uw ah n -"
+    },
+    "arctic_a0117.TextGrid": {
+        "words": "she added with genuine sympathy in her face and voice",
+        "target_phonemes": "sil sh iy ae d ih d sil w ih dh jh eh n y ah w ah n sil s ih m p ah th iy sil ih n hh er f ey s ae n d - v oy s sil",
+        "perceived_phonemes": "- sh iy ae d ih d - w ih dh jh eh n y ah - - n - s ih m p - th iy - ih n hh er f ey s ae n d ah v oy s -"
+    },
+    "arctic_b0083.TextGrid": {
+        "words": "in it there was something that was almost tragedy",
+        "target_phonemes": "sil ih n ih t sil dh eh r w aa z s ah m th ih ng dh ae t sil w ao z ao l m ow s t sil t r ae jh ah d iy sil",
+        "perceived_phonemes": "- eh n eh t - z eh r w aa z s ah m th ih ng z ae t - w ao z ao l m ow s t - t r ae jh ah d iy -"
+    },
+    "arctic_a0128.TextGrid": {
+        "words": "this one hope was destroyed as quickly as it was born",
+        "target_phonemes": "sil dh ih s w ah n sil hh ow p sil w ao z d ih s t r oy d sil ae z k w ih k l iy ae z ih t w ao z b ao r n sil",
+        "perceived_phonemes": "- z ih s w ah n - hh ow p - w ao z d ih s t r oy d - ae z k w ih k l iy ae z ih t w ao z p ao r - -"
+    },
+    "arctic_a0129.TextGrid": {
+        "words": "her face was against his breast",
+        "target_phonemes": "hh er f ey s sil w ao z sil ah g ey n - s t hh ih z b r eh s t sil",
+        "perceived_phonemes": "hh er f ey s - w ao z - ah g ey n ah s t hh ih z p r eh s t -"
+    },
+    "arctic_a0020.TextGrid": {
+        "words": "clubs and balls and cities grew to be only memories",
+        "target_phonemes": "sil k l ah b z sil ah n d sil b ao l z sil ah n d s ih t iy z g r uw t uw sil b iy sil ow n l iy m eh m er iy z sil",
+        "perceived_phonemes": "- k l ah b z - ah n d - b ao l z - ah n d s ih t iy z g r ao t uw - b iy - ow n l iy m eh m r iy z -"
+    },
+    "arctic_a0021.TextGrid": {
+        "words": "it fairly clubbed me into recognizing it",
+        "target_phonemes": "sil ih t f eh r l iy k l ah b d m iy ih n t uw r eh k ah g n ay z ih ng - sil ih t sil",
+        "perceived_phonemes": "- ih t f eh r l iy k l ah b d m iy ih n t uw r eh k ah g n ay z ih ng k - ih t -"
+    },
+    "arctic_b0150.TextGrid": {
+        "words": "and he was filled with a strange and foreboding fear",
+        "target_phonemes": "sil ah n d hh iy w aa z f ih l d w ih dh sil ah s t r ey n jh sil ah n d f ao r b ow d ih ng - sil f ih r sil",
+        "perceived_phonemes": "- ah n d hh iy w aa z f ey l d w ih dh - ah s t r ey n jh - ah n d f ao r - ow b ih ng k - f ih r -"
+    },
+    "arctic_b0538.TextGrid": {
+        "words": "at the best they were necessary accessories",
+        "target_phonemes": "sil ae t sil dh ah b eh s t sil dh ey w er sil n eh s ah s eh r iy sil ae k s eh s er iy z sil",
+        "perceived_phonemes": "- ae t - dh ah b eh s t - dh ey w er - n eh s ah s eh r iy - ae k s eh s er iy s -"
+    },
+    "arctic_a0086.TextGrid": {
+        "words": "death had come with terrible suddenness",
+        "target_phonemes": "d eh th sil hh ae d k ah m w ih th sil t eh r ah b ah l sil s ah d ah n n ah s sil",
+        "perceived_phonemes": "d eh th - hh ae d k ah m w ih th - t eh r ah p ah l - s ah d ah n n ah s -"
+    },
+    "arctic_b0506.TextGrid": {
+        "words": "it would help to tide me along until i got steady employment",
+        "target_phonemes": "sil ih t w uh d sil hh eh l p sil t uw t ay d m iy ah l ao ng - ah n t ih l ay g aa t s t eh d iy ih m p l oy m ah n t sil",
+        "perceived_phonemes": "- ih t w uh d - hh eh l p - t uw t ay d m iy ah l ao ng k ah n t ih l ay g aa t s t eh d iy ih m p l oy m ah n t -"
+    },
+    "arctic_a0063.TextGrid": {
+        "words": "yes it was a man who asked a stranger",
+        "target_phonemes": "y eh s sil ih t w ao z ah m ae n hh uw sil ae s k - t ah sil s t r ey n jh er sil",
+        "perceived_phonemes": "y eh s - ih t w ao z ah m ae n hh uw - ae s k ah t ah - s t r ey n jh er -"
+    },
+    "arctic_a0062.TextGrid": {
+        "words": "the men stared into each other's face",
+        "target_phonemes": "dh ah m eh n sil s t eh r d ih n t uw sil iy ch ah dh er z f ey s sil",
+        "perceived_phonemes": "dh ah m eh n - s t eh r d ih n t uw - iy ch ah dh er z f ey s -"
+    },
+    "arctic_a0122.TextGrid": {
+        "words": "two years ago i gave up civilization for this",
+        "target_phonemes": "t uw y iy er z ah g ow sil ay g ey v ah p sil s ih v ah l ih z ey sh ah n sil f ao r dh ih s sil",
+        "perceived_phonemes": "t uw y iy r z ah g ow - ay g ey v ah p - s ih v ah l ih z ey sh ah n - f ao r dh ih th -"
+    },
+    "arctic_a0123.TextGrid": {
+        "words": "she had died from cold and starvation",
+        "target_phonemes": "sil sh iy hh ae d d ay d f r ah m k ow l d ae n d s t aa r v ey sh ah n sil",
+        "perceived_phonemes": "- sh iy hh ae d d ay d f r ah m k ow l d ae n d s t aa r v ey sh ah n -"
+    },
+    "arctic_a0040.TextGrid": {
+        "words": "i suppose you wonder why she is coming up here",
+        "target_phonemes": "sil ay s ah p ow z sil y uw w ah n d er sil hh w ay sh iy ih z k ah m ih ng ah p hh iy r sil",
+        "perceived_phonemes": "- ay s ah b ow z - y uw w ah n d er - hh w ay sh iy ih z k ah m ih ng ah p hh iy r -"
+    },
+    "arctic_a0041.TextGrid": {
+        "words": "meanwhile i'll go out to breathe a spell",
+        "target_phonemes": "sil m iy n w ay l sil ay l g ow aw t t uw b r iy dh sil ah sil s p eh l sil",
+        "perceived_phonemes": "- m iy n w ay l - ay l g ow aw t t uw p r iy dh - ah - s p eh l -"
+    },
+    "arctic_a0008.TextGrid": {
+        "words": "gad your letter came just in time",
+        "target_phonemes": "sil g ae d sil y uh r l eh t er sil k ey m jh ah s t ih n t ay m sil",
+        "perceived_phonemes": "- g ae d - y uh r l eh t r - k ey m jh ah s t ih n t ay m -"
+    },
+    "arctic_a0101.TextGrid": {
+        "words": "you you wouldn't keep the truth from me",
+        "target_phonemes": "sil y uw sil y uw w uh d ah n t - k iy p dh ah t r uw th f r ah m m iy sil",
+        "perceived_phonemes": "- y uw - y uw w uh d ah n t ah k iy p dh ah d r uw th f r ow m m iy -"
+    },
+    "arctic_a0100.TextGrid": {
+        "words": "you must sleep he urged",
+        "target_phonemes": "y uw m ah s t - s l iy p sil hh iy er jh d sil",
+        "perceived_phonemes": "y uw m ah s - ah s l iy p - hh iy er zh d -"
+    },
+    "arctic_b0146.TextGrid": {
+        "words": "after all it was simply a mistake in judgment",
+        "target_phonemes": "sil ae f t er ao l sil ih t w aa z s ih m p - l iy sil ah m ih s t ey k ih n jh ah jh m ah n t sil",
+        "perceived_phonemes": "- ae f t er ao l - ih t w aa z s ih m p ah l iy - ah m ih s t ey k ih n zh ao zh m ah n t -"
+    },
+    "arctic_b0413.TextGrid": {
+        "words": "he may desire to escape pain or to enjoy pleasure",
+        "target_phonemes": "sil hh iy m ey d ih z ay er t uw ih s k ey p p ey n sil ao r t uw ih n jh oy p l eh zh er sil",
+        "perceived_phonemes": "- hh iy m ey d ih z ay er t uw ih s k ey - b ey n - ao r t uw ih n zh oy p l eh zh er -"
+    },
+    "arctic_a0037.TextGrid": {
+        "words": "i was the only one who remained sitting",
+        "target_phonemes": "sil ay w ah z dh ah ow n l iy w ah n sil hh uw r iy m ey n d sil s ih t ih ng - sil",
+        "perceived_phonemes": "- ay w ah z z ah ow n l iy w ah n - hh uw r iy m ey n d - s ih t ih ng k -"
+    },
+    "arctic_a0036.TextGrid": {
+        "words": "she turned in at the hotel",
+        "target_phonemes": "sil sh iy t er n d ih n sil ae t sil dh ah hh ow t eh l sil",
+        "perceived_phonemes": "- sh iy t er n d ih n - ae t - dh ah hh ow t eh l -"
+    },
+    "arctic_a0091.TextGrid": {
+        "words": "his blood grew hot with rage at the thought",
+        "target_phonemes": "hh ih z b l ah d sil g r uw hh aa t sil w ih dh sil r ey jh sil ae t dh ah th ao t sil",
+        "perceived_phonemes": "hh ih z b l ah d - g r uw hh aa t - w aa dh - r ey jh - ae t dh ah th ow t -"
+    },
+    "arctic_a0090.TextGrid": {
+        "words": "the singing voice approached rapidly",
+        "target_phonemes": "dh ah s ih ng ih ng - v oy s sil ah p r ow ch - t sil r ae p ah d l iy sil",
+        "perceived_phonemes": "dh ah s ih ng ih ng g v oy s - ah p r ow ch ah t - r ae b ah d l iy -"
+    },
+    "arctic_a0003.TextGrid": {
+        "words": "for the twentieth time that evening the two men shook hands",
+        "target_phonemes": "sil f ao r sil dh ah t w eh n t iy ih th sil t ay m sil dh ae t iy v n ih ng - sil dh ah t uw m eh n sil sh uh k hh ae n d z sil",
+        "perceived_phonemes": "- f ao r - dh ah t w eh n t iy ih th - t ay m - dh ae t iy v n ih ng k - dh ah t uw m eh n - sh uh k hh ae n s s -"
+    },
+    "arctic_a0461.TextGrid": {
+        "words": "ah we were very close together in that moment",
+        "target_phonemes": "sil aa sil w iy w er v eh r iy k l ow s t ah g eh dh er sil ih n dh ae t m ow m ah n t sil",
+        "perceived_phonemes": "- aa - w iy w er v eh r iy k l ow s t ah g eh dh er - ih n dh ae t m ow m ah n t -"
+    },
+    "arctic_a0134.TextGrid": {
+        "words": "he obeyed the pressure of her hand",
+        "target_phonemes": "hh iy ow b ey d sil dh ah p r eh sh er ah v hh er sil hh ae n d",
+        "perceived_phonemes": "hh iy ow p ey d - dh ah p r eh sh er ah v hh er - hh ae n t"
+    },
+    "arctic_a0075.TextGrid": {
+        "words": "there has been a change she interrupted him",
+        "target_phonemes": "sil dh eh r hh ae z b ih n sil ah ch ey n jh sil sh iy ih n t er ah p t ih d hh ih m",
+        "perceived_phonemes": "- dh eh - hh ae z b ih n - ah ch ey n jh - sh iy ih n d er ah p t ih d hh ih m"
+    },
+    "arctic_a0047.TextGrid": {
+        "words": "close beside him gleamed the white fangs of the wolf dog",
+        "target_phonemes": "sil k l ow s b ih s ay d hh ih m sil g l iy m d sil dh ah w ay t f ae ng z ah v dh ah w uh l f d ao g sil",
+        "perceived_phonemes": "- k l ow z b ih s ay d hh ih m - g l iy m d - dh ah w ay t f ae ng z ah v dh ah w ao l f d ow g -"
+    },
+    "arctic_a0046.TextGrid": {
+        "words": "the girl faced him her eyes shining with sudden fear",
+        "target_phonemes": "dh ah g er l sil f ey s t hh ih m sil hh er ay z sh ay n ih ng - sil w ih dh sil s ah d ah n f ih r sil",
+        "perceived_phonemes": "dh ah g er l - f ey s t hh ih m - hh r ay z sh ay n ih ng k - w ih dh - s ah d ah n f ih r -"
+    },
+    "arctic_a0106.TextGrid": {
+        "words": "the emotion which she had suppressed burst forth now in a choking sob",
+        "target_phonemes": "dh ah ih m ow sh ah n w ih ch sh iy hh ae d sil s ah p r eh s t sil b er s t sil f ao r th sil n aw sil ih n sil ah ch ow k ih ng sil s aa b sil",
+        "perceived_phonemes": "dh ah ih m ow sh ah n w ih ch sh iy hh ae d - s ah p r eh s t - p er s t - f ao r th - n aw - ih n - ah ch ow k ih ng - s ow b -"
+    },
+    "arctic_a0107.TextGrid": {
+        "words": "if you only could know how i thank you",
+        "target_phonemes": "ih f y uw ow n l iy sil k uh d n ow sil hh aw ay th ae ng k y uw sil",
+        "perceived_phonemes": "ih f y uw ow n - iy - k uh d n ow - hh aw ay th ae ng k y uw -"
+    },
+    "arctic_a0079.TextGrid": {
+        "words": "it was a large canoe",
+        "target_phonemes": "ih t w ao z sil ah l aa r jh sil k ah n uw sil",
+        "perceived_phonemes": "ih t w ao z - ah l aa r zh - k ae n uw -"
+    },
+    "arctic_a0078.TextGrid": {
+        "words": "then and at supper he tried to fathom her",
+        "target_phonemes": "sil dh eh n sil ah n d sil ae t sil s ah p er sil hh iy t r ay d t uw f ae dh ah m hh er sil",
+        "perceived_phonemes": "- dh eh n - ah n d - ae t - s ah p er - hh iy t r oy d t uw f ae th ah m hh er -"
+    },
+    "arctic_a0139.TextGrid": {
+        "words": "he told himself that as he washed himself and groomed his disheveled clothes",
+        "target_phonemes": "hh iy t ow l d hh ih m s eh l f - dh ae t sil ae z hh iy w aa sh t sil hh ih m s eh l f sil ah n d g r uw m d hh ih z sil d ih sh eh v ah l d sil k l ow dh - z sil",
+        "perceived_phonemes": "hh iy t ow l d hh ih m s eh l f ah dh ae t - ae z hh iy w ow zh d - hh ih m s eh l f - ah n d g r uw m d hh ih z - d ih sh eh v ah l d - k l ow dh ah s -"
+    },
+    "arctic_a0030.TextGrid": {
+        "words": "i had faith in them",
+        "target_phonemes": "sil ay hh ae d f ey th ih n sil dh eh m sil",
+        "perceived_phonemes": "- ay hh ae d f ey th ih n - dh eh m -"
+    },
+    "arctic_a0031.TextGrid": {
+        "words": "they were three hundred yards apart",
+        "target_phonemes": "sil dh ey w - er sil th r iy sil hh ah n d r ih d y aa r d z sil ah p aa r t sil",
+        "perceived_phonemes": "- dh ey w iy er - th r iy - hh ah n d r ih d y aa r d z - ah p aa r t -"
+    },
+    "arctic_a0257.TextGrid": {
+        "words": "they are coming ashore whoever they are",
+        "target_phonemes": "sil dh ey aa r k ah m ih ng - sil ah sh ao r sil hh uw eh v er sil dh ey aa r sil",
+        "perceived_phonemes": "- dh ey aa r k ah m ih ng g - ah sh ao r - hh uw eh v ah - dh ey aa r -"
+    },
+    "arctic_a0005.TextGrid": {
+        "words": "will we ever forget it",
+        "target_phonemes": "sil w ih l w iy sil eh v er sil f ao r g eh t sil ih t sil",
+        "perceived_phonemes": "- w ih l w iy - eh v ah - f ao r g eh t - eh t -"
+    },
+    "arctic_b0469.TextGrid": {
+        "words": "very few people knew of the existence of this law",
+        "target_phonemes": "sil v eh r iy f y uw p iy p ah l n - uw sil ah v dh ah eh g z ih s t ah n s sil ah v sil dh ih s l ao sil",
+        "perceived_phonemes": "- v eh r iy f y uw p iy b ah l n y uw - ah v dh ah eh g z ih s t ah n s - ah v - dh ih s l ao -"
+    },
+    "arctic_a0096.TextGrid": {
+        "words": "perhaps she had already met her fate a little deeper in the forest",
+        "target_phonemes": "sil p - er hh ae p s sil sh iy hh ae d ao l r eh d iy m eh t sil hh er f ey t sil ah l ih t ah l d iy p er ih n dh ah f ao r ah s t sil",
+        "perceived_phonemes": "- p r eh hh ae p s - sh iy hh ae d ao l r eh d iy m eh t - hh er f ey t - ah l ih t ah l d iy p ah ih n dh ah f ao r - s t -"
+    },
+    "arctic_a0097.TextGrid": {
+        "words": "then you can arrange yourself comfortably among these robes in the bow",
+        "target_phonemes": "sil dh eh n sil y uw k ae n er ey n jh y er s eh l f sil k ah m f er t ah b l iy sil ah m ah ng - sil dh iy z r ow b z sil ih n dh ah b ow sil",
+        "perceived_phonemes": "- dh eh n - y uw k ae n er ey n ch y er s eh l f - k ah m f er t ah b l iy - ah m ah ng k - dh iy z r ow p s - ih n dh ah b ow -"
+    },
+    "arctic_b0103.TextGrid": {
+        "words": "he lifted his eyes and a strange cry burst from his lips",
+        "target_phonemes": "hh iy l ih f t ih d hh ih z ay z sil ah n d sil ah s t r ey n jh k r ay sil b - er s t f r ah m hh ih z l ih p s",
+        "perceived_phonemes": "hh iy l ih f t ih d hh ih z ay z - ah n d - ah s t r ey n jh k r ay - p r eh s t f r ah m hh ih z l ih p s"
+    },
+    "arctic_a0073.TextGrid": {
+        "words": "the promoter's eyes were heavy with little puffy bags under them",
+        "target_phonemes": "sil dh ah sil p r ah m ow t er z ay z sil w er hh eh v iy sil w ih dh l ih t ah l p ah f iy b ae g z sil ah n d er dh eh m sil",
+        "perceived_phonemes": "- dh ah - b r uw m iy t er z ay z - w er hh eh v iy - w ih dh l ih t ah l p ah f iy b aa g s - ah n d r dh eh m -"
+    },
+    "arctic_a0214.TextGrid": {
+        "words": "besides he was paid one case of tobacco per head",
+        "target_phonemes": "b ih s ay d z sil hh iy w ao z p ey d w ah n k ey s ah v t ah b ae k ow p er hh eh d sil",
+        "perceived_phonemes": "b ih s ay d z - hh iy w ao z b ey d w ah n k ey s ow f t ah b ae k ow b er hh eh t -"
+    },
+    "arctic_a0019.TextGrid": {
+        "words": "i followed the line of the proposed railroad looking for chances",
+        "target_phonemes": "sil ay f aa l ow d dh ah l ay n sil ah v dh ah p r ah p ow z d sil r ey l r ow d sil l uh k ih ng f ao r sil ch ae n s ih z sil",
+        "perceived_phonemes": "- ay f aa l ow d dh ah l ay n - ah v dh ah p r ah p ow z d - r ey l r ow d - l uh k ih ng f ao r - ch ae n s ih z -"
+    },
+    "arctic_a0018.TextGrid": {
+        "words": "there was a change now",
+        "target_phonemes": "sil dh eh r w aa z ah ch ey n jh n aw sil",
+        "perceived_phonemes": "- z eh r w aa z ah ch ey n jh n aw -"
+    },
+    "arctic_a0111.TextGrid": {
+        "words": "instead he joined her and they ate like two hungry children",
+        "target_phonemes": "sil ih n s t eh d sil hh iy jh oy n d hh er sil ah n d dh ey sil ey t l ay k t uw hh ah ng g r iy ch ih l d r ah n sil",
+        "perceived_phonemes": "- ih - s t eh d - hh iy zh oy n d hh er - ah n d dh ey - ey t l ay k t uw hh ah n g r iy ch eh l d r ah n -"
+    },
+    "arctic_b0534.TextGrid": {
+        "words": "i'll tell you the librarian said with a brightening face",
+        "target_phonemes": "sil ay l t eh l y uw sil dh ah l ay b r eh r iy ah n s eh d sil w ih th sil ah sil b r ay t ah n ih ng - sil f ey s sil",
+        "perceived_phonemes": "- ay l t ih l y uw - z ah l ay p r eh r iy ah n s eh d - w ih z - ah - p r ay t ah n ih ng k - f ey s -"
+    },
+    "arctic_a0051.TextGrid": {
+        "words": "the lace was of a delicate ivory color faintly tinted with yellow",
+        "target_phonemes": "sil dh ah l ey s w ao z ah v sil ah d eh l ah k ah t sil ay v - er iy k ah l er sil f ey n t l iy sil t ih n t ih d sil w ih dh sil y eh l ow sil",
+        "perceived_phonemes": "- dh ah l ey s w ao z ah v - ah d eh l ah k ah t - ih v ao r iy k ah l er - f ey n t l iy - t ih n t ih d - w ih dh - y ey l ow -"
+    },
+    "arctic_a0159.TextGrid": {
+        "words": "they look as though he had been drumming a piano all his life",
+        "target_phonemes": "sil dh ey l uh k ae z sil dh ow sil hh iy hh ae d sil b ih n d r ah m ih ng - sil ah p iy ae n ow ao l hh ih z l ay f sil",
+        "perceived_phonemes": "- z ey l uh k ae z - s ow - hh iy hh ae d - b ih n d r ah m ih ng k - ah p iy ae n ow ao l hh ih z l ay f -"
+    },
+    "arctic_a0027.TextGrid": {
+        "words": "to my surprise he began to show actual enthusiasm in my favor",
+        "target_phonemes": "t uw m ay s er p r ay z sil hh iy b iy g ae n sil t uw sh ow ae k sh ah l sil ih n th uw z iy ae z ah m sil ih n m ay f ey v er sil",
+        "perceived_phonemes": "t uw m ay s er p r ay z - hh iy b iy g ae n - t uw sh ow ae k sh ah l - ih n s uw s iy ae z ah m - ih n m ay f ey v ah -"
+    },
+    "arctic_a0026.TextGrid": {
+        "words": "it occurred to me that there would have to be an accounting",
+        "target_phonemes": "ih t ah k er d t uw m iy sil dh ae t sil dh eh r w uh d hh ae v t uw b iy ae n sil ah k aw n t ih ng sil",
+        "perceived_phonemes": "ih t ow k er d t uw m iy - dh ae t - dh eh r w uh d hh ae v t uw b iy ae n - ah k aw n t ih ng -"
+    },
+    "arctic_b0016.TextGrid": {
+        "words": "he chuckled as he pulled out his pipe and began filling it",
+        "target_phonemes": "sil hh iy sil ch ah k ah l d sil ae z sil hh iy p uh l d sil aw t hh ih z p ay p sil ah n d b ih g ae n f ih l ih ng - ih t sil",
+        "perceived_phonemes": "- hh iy - ch ah k ah l d - ae z - hh iy p uh l d - aw t hh ih z f ay p - ah n d b ih g ae n f ih l ih ng g ih t -"
+    },
+    "arctic_b0490.TextGrid": {
+        "words": "what an excited whispering and conferring took place",
+        "target_phonemes": "sil hh w ah t sil ah n ih k s ay t ih d sil hh w ih s p er ih ng - sil ah n d sil k ah n f er ih ng - sil t uh k p l ey s sil",
+        "perceived_phonemes": "- hh w ah t - ah n ih k s ay t ih d - hh w ih s p er ih ng k - ah n d - k ah n f er ih ng g - t uh k p l ey s -"
+    },
+    "arctic_a0300.TextGrid": {
+        "words": "from my earliest recollection my sleep was a period of terror",
+        "target_phonemes": "sil f r ah m m ay er l iy ah s t sil r eh k ah l eh k sh ah n sil m ay s l iy p w ao z ah sil p ih r iy ah d sil ah v t eh r er sil",
+        "perceived_phonemes": "- f r ah m m ay er l - ah s t - r iy k ah l eh k sh ah n - m ay s l iy p w ao z ah - p er r iy ah d - ah v t eh r er -"
+    },
+    "arctic_a0081.TextGrid": {
+        "words": "what if she did not come to the rock",
+        "target_phonemes": "w ah t ih f sh iy d ih d n aa t sil k ah m t uw dh ah r aa k sil",
+        "perceived_phonemes": "w ah t ih f sh iy d ih d n - t - k ah m t uw dh ah r ow k -"
+    },
+    "arctic_a0013.TextGrid": {
+        "words": "he was a head shorter than his companion of almost delicate physique",
+        "target_phonemes": "hh iy w ao z sil ah hh eh d sh ao r t er sil dh ae n hh ih z sil k ah m p ae n y ah n sil ah v sil ao l m ow s t sil d eh l ah k ah t sil f ah z iy k sil",
+        "perceived_phonemes": "hh iy w ao z - ah hh eh d sh ao r t er - dh ae n hh ih z - k ah m b ae n y ah n - ah v - ao l m ow s t - d eh l ah k ey t - f ah z iy k -"
+    },
+    "arctic_a0064.TextGrid": {
+        "words": "the fourth and fifth days passed without any developments",
+        "target_phonemes": "sil dh ah f ao r th sil ah n d f ih f th sil d ey z p ae s t w ih dh aw t eh n iy d ih v eh l ah p m ah n t s sil",
+        "perceived_phonemes": "- dh ah f ao r th - ah n d f ih f th - d ey z b ae s t w ih dh aw t eh n iy d ih v eh l ah p m ah n t s -"
+    },
+    "arctic_a0065.TextGrid": {
+        "words": "they closed now until his fingers were like cords of steel",
+        "target_phonemes": "dh ey k l ow z d n aw ah n t ih l sil hh ih z f ih ng g er z w er l ay k sil k ao r d z ah v sil - s t iy l sil",
+        "perceived_phonemes": "dh ey k l ow z d n aw ah n t ih l - hh ih z f ih ng g er z w er l ay k - k ao r d s ah v - ah s t iy l -"
+    },
+    "arctic_a0125.TextGrid": {
+        "words": "he was determined now to maintain a more certain hold upon himself",
+        "target_phonemes": "hh iy w aa z d ih t er m ah n d - n aw sil t uw m ey n t ey n sil ah m ao r sil s er t ah n hh ow l d sil ah p aa n sil hh ih m s eh l f",
+        "perceived_phonemes": "hh iy w aa z d ih t er m ah n d ah n aw - t uw m ey n t ey n - ah m ao r - s er t ah n - ow l d - ah p aa n - hh eh m s eh l f"
+    },
+    "arctic_a0092.TextGrid": {
+        "words": "he went down in midstream searching the shadows of both shores",
+        "target_phonemes": "hh iy w eh n t - d aw - n sil ih n sil m ih d - s t r iy m sil s er ch ih ng - sil dh ah sh ae d ow z ah v sil b ow th sil sh ao r z sil",
+        "perceived_phonemes": "hh iy w eh n t ah d aw ah n - ih n - m ih d ah s t r iy m - s er sh ih ng k - dh ah sh ae d ow z ah v - p ow th - sh ao - s -"
+    },
+    "arctic_a0093.TextGrid": {
+        "words": "for a full minute he crouched and listened",
+        "target_phonemes": "sil f ao r ah f uh l m ih n ah t sil hh iy k r aw ch - t ah n d l ih s ah n d sil",
+        "perceived_phonemes": "- f ao r ah f uh l m ih n ah t - hh iy k r ow ch ah t ah n d l ih s ah n d -"
+    },
+    "arctic_a0108.TextGrid": {
+        "words": "he waded into the edge of the water and began scrubbing himself",
+        "target_phonemes": "hh iy w ey d ih d ih n t uw dh ah eh jh sil ah v dh ah w ao t er sil ah n d b ih g ae n sil s k r ah b ih ng - hh ih m s eh l f",
+        "perceived_phonemes": "hh iy w ey d ih d ih n t uw dh ah eh jh - ah v dh ah w ow t er - ah n d b ih g ae n - s k r ah b ih ng k hh ih m s eh l f"
+    },
+    "arctic_a0109.TextGrid": {
+        "words": "do you know that you are shaking my confidence in you",
+        "target_phonemes": "d uw y uw n ow sil dh ae t sil y uw aa r sh ey k ih ng - sil m ay k aa n f ah d ah n s sil ih n y uw sil",
+        "perceived_phonemes": "d uw y uw n ow - dh ae t - y uw aa r sh ey k ih ng k - m ay k ow n f ah d ah n s - ih n y uw -"
+    },
+    "arctic_b0424.TextGrid": {
+        "words": "it is a very tenable hypothesis and will bear looking into",
+        "target_phonemes": "sil ih t ih z sil ah v eh r iy t eh n ah b ah l sil hh ay p aa th ah s ah s sil ah n d w ih l sil b eh r l uh k ih ng - sil ih n t uw sil",
+        "perceived_phonemes": "- ih t ih z - ah v eh r iy t eh n ah b ah l - hh ay p ow th ah s ah s - ah n d w ih l - b iy r l uh k ih ng k - ih n t uw -"
+    },
+    "arctic_b0425.TextGrid": {
+        "words": "there were orange green gold green and a copper green",
+        "target_phonemes": "sil dh eh r w er ao r ah n jh g r iy n sil g ow l d g r iy n sil ah n d ah sil k aa p er g r iy n sil",
+        "perceived_phonemes": "- dh eh r w er ao r ah n jh g r iy n - g ow l d - r iy n - ah n d ah - k uw p er k r iy n -"
+    },
+    "arctic_a0048.TextGrid": {
+        "words": "he looked at the handkerchief more closely",
+        "target_phonemes": "sil hh iy l uh k t ae t dh ah hh ae ng - k er ch iy f m ao r sil k l ow s l iy sil",
+        "perceived_phonemes": "- hh iy l uh k t ae t dh ah hh ae ng d k er sh iy f m ao r - g l ow z l iy -"
+    },
+    "arctic_a0136.TextGrid": {
+        "words": "about him everywhere were the evidences of luxury and of age",
+        "target_phonemes": "sil ah b aw t hh ih m sil eh v r iy w eh r sil w er dh ah eh v ah d ah n s ah z ah v l ah g zh er iy sil ah n d sil ah v ey jh sil",
+        "perceived_phonemes": "- ah b aw t hh eh m - eh v r iy w eh r - w er dh ah eh v ah d ah n s - - ah v l ah g sh er iy - ah n d - ah v eh ch -"
+    },
+    "arctic_b0452.TextGrid": {
+        "words": "they saw each other for the first time in boston",
+        "target_phonemes": "sil dh ey s ao sil iy ch sil ah dh er sil f ao r dh ah f er s t t ay m sil ih n sil b ao s t ah n sil",
+        "perceived_phonemes": "- dh ey s ow - ih ch - ah dh er - f ao r dh ah f er s t t ay m - ih n - p ao s t ah n -"
+    },
+    "arctic_a0137.TextGrid": {
+        "words": "then he stepped back with a low cry of pleasure",
+        "target_phonemes": "sil dh eh n sil hh iy s t eh p t - b ae k w ih dh sil ah l ow k r ay ah v p l eh zh er sil",
+        "perceived_phonemes": "- z eh n - hh iy s t eh p d ah b ae k w ih dh - ah l ow k r ay ah v p l eh zh ah -"
+    },
+    "arctic_b0106.TextGrid": {
+        "words": "for a full minute the two men stared into each other's face",
+        "target_phonemes": "f ao r sil ah f uh l m ih n ah t sil dh ah t uw m eh n sil s t eh r d sil ih n t uw sil iy ch sil ah dh er z f ey s sil",
+        "perceived_phonemes": "f ao r - ah f uh l m ih n ah t - dh ah t uw m eh n - s t eh r d - ih n t uw - iy ch - ah dh er z f ey s -"
+    },
+    "arctic_a0077.TextGrid": {
+        "words": "it is the fire partly she said",
+        "target_phonemes": "ih t ih z dh ah f ay r sil p aa r t l iy sil sh iy s eh d sil",
+        "perceived_phonemes": "ih t ih z dh ah f ay r - p aa r t l iy - sh iy s eh d -"
+    },
+    "arctic_a0076.TextGrid": {
+        "words": "the gray eyes faltered the flush deepened",
+        "target_phonemes": "dh ah g r ey ay z sil f aa l t er d sil dh ah f l ah sh sil d iy p ah n d sil",
+        "perceived_phonemes": "dh ah g r ey ay z - f eh l t er d - dh ah f l ah sh - d iy b ah n d -"
+    },
+    "arctic_a0042.TextGrid": {
+        "words": "how could he explain his possession of the sketch",
+        "target_phonemes": "hh aw k uh d sil hh iy ih k s p l ey n hh ih z sil p ah z eh sh ah n sil ah v dh ah s k eh ch sil",
+        "perceived_phonemes": "hh aw k uh d - hh iy ih k s b l ey n hh ih z - p ah z eh sh ah n - ah v dh ah s k eh ch -"
+    },
+    "arctic_a0102.TextGrid": {
+        "words": "he will follow us soon",
+        "target_phonemes": "hh iy w ih l f aa l ow ah s s uw n",
+        "perceived_phonemes": "hh iy w ih l f ow l ow ah s s uw n"
+    },
+    "arctic_a0103.TextGrid": {
+        "words": "but there came no promise from the bow of the canoe",
+        "target_phonemes": "b ah t dh - eh r k ey m n ow p r aa m ah s f r ah m dh ah b ow ah v dh ah k ah n uw sil",
+        "perceived_phonemes": "b ah t dh ih eh r k ey m n ow p r ow m ah s f r ah m dh ah p ow ah v dh ah k ah n uw -"
+    },
+    "arctic_a0098.TextGrid": {
+        "words": "shall i carry you",
+        "target_phonemes": "sil sh ae l ay k ae r iy y uw sil",
+        "perceived_phonemes": "- sh ae l ay k ae r iy y uw -"
+    },
+    "arctic_a0099.TextGrid": {
+        "words": "a maddening joy pounded in his brain",
+        "target_phonemes": "sil ah m ae d ah n ih ng sil jh oy sil p aw n d ih d sil ih n hh ih z b r ey n sil",
+        "perceived_phonemes": "- ah m eh d ah n ih ng - zh oy - b aw n d ih d - ih n hh ih z p r ey n -"
+    },
+    "arctic_b0518.TextGrid": {
+        "words": "but there was also talk of witchcraft in the village",
+        "target_phonemes": "sil b ah t dh eh r w ao z ao l s ow sil t ao k sil ah v w ih ch k r ae f t sil ih n dh ah v ih l ih jh sil",
+        "perceived_phonemes": "- b ah t dh eh r w ao z ao l s - - t ao k - ah v w ih ch k r ae f t - ih n dh ah v ih l ih jh -"
+    },
+    "arctic_a0529.TextGrid": {
+        "words": "as i say he had tapped the message very rapidly",
+        "target_phonemes": "sil ae z ay s ey sil hh iy hh ae d sil t ae p t dh ah m eh s ih jh v eh r iy r ae p ah d l iy sil",
+        "perceived_phonemes": "- ae z ay s ey - hh iy hh ae d - t ae p t z ah m eh s ih jh v eh r iy r ae b ah d l iy -"
+    },
+    "arctic_b0433.TextGrid": {
+        "words": "we are cooking on the coal stove and on the oil burners",
+        "target_phonemes": "sil w iy aa r k uh k ih ng - sil ao n dh ah k ow l sil s t ow v sil ah n d ao n dh ah oy l sil b er n er z sil",
+        "perceived_phonemes": "- w iy aa r k uh k ih ng k - ao n dh ah k ow l - s t ow v - ah n d ao n dh ah oy l - p er n er s -"
+    },
+    "arctic_b0432.TextGrid": {
+        "words": "he is a candidate rising from the serf class to our class",
+        "target_phonemes": "hh iy ih z sil ey k ae n ah d ih t sil r ay z ih ng - f r ah m sil dh ah s er f k l ae s t uw aw r k l ae s",
+        "perceived_phonemes": "hh iy ih z - ey k ae n ah d ih t - r ay s ih ng k f r ah m - dh ah s er f k l aa s t uw aw r k l aa s"
+    },
+    "arctic_a0085.TextGrid": {
+        "words": "a trickle of fresh blood ran over his face",
+        "target_phonemes": "sil ah t r ih k ah l ah v f r eh sh b l ah d sil - r ae n sil ow v er hh ih z f ey s sil",
+        "perceived_phonemes": "- ah t r ih k ah l ah v f r eh sh b l ah d - ax r ae n - ow v er hh ih z f ey s -"
+    },
+    "arctic_b0348.TextGrid": {
+        "words": "would you be satisfied with that one hundredth part of me",
+        "target_phonemes": "sil w uh d y uw b iy sil s ae t ah s f ay d w ih dh dh ae t sil w ah n sil hh ah n d r ah d th sil p aa r t ah v sil m iy sil",
+        "perceived_phonemes": "- w uh d y uw b iy - s ae t ah s f ay d w ih dh dh ae t - w ae n - hh ah n d r ah d th - p aa r t ah v - m iy -"
+    },
+    "arctic_a0379.TextGrid": {
+        "words": "how old are you daddy",
+        "target_phonemes": "sil hh aw ow l d aa r y uw sil d ae d iy sil",
+        "perceived_phonemes": "- hh aw ow l d aa r y uw - d ae d iy -"
+    },
+    "arctic_a0060.TextGrid": {
+        "words": "anyway no one saw her like that",
+        "target_phonemes": "sil eh n iy w ey sil n ow w ah n s ao hh er - l ay k dh ae t sil",
+        "perceived_phonemes": "- eh n iy w ey - n ow w ah n s ao hh eh r l ay k dh ae t -"
+    },
+    "arctic_b0504.TextGrid": {
+        "words": "the life there was healthful and athletic but too juvenile",
+        "target_phonemes": "sil dh ah l ay f dh eh r w aa z sil hh eh l th f ah l sil ah n d ae th - l eh t ih k b ah t sil t uw sil jh uw v ah n ay l sil",
+        "perceived_phonemes": "- dh ah l ay f dh eh r w aa z - hh eh l th f ah l - ah n d ae th ah l eh t ih k b ah t - t uw - zh uw v ah n ay l -"
+    },
+    "arctic_b0158.TextGrid": {
+        "words": "she obeyed shrinking back with the baby in her arms",
+        "target_phonemes": "sil sh iy ow b ey d sil sh r ih ng k ih ng - sil b ae k w ih dh dh ah sil b ey b iy ih n hh er aa r m z sil",
+        "perceived_phonemes": "- sh iy ow p ey d - sh r eh ng k ih ng k - b ae k w ih dh dh ah - b ey b iy ih n hh er aa r m s -"
+    },
+    "arctic_a0029.TextGrid": {
+        "words": "their forces were already moving into the north country",
+        "target_phonemes": "sil dh - eh r f ao r s ih z w er - ao r eh d iy m uw v ih ng - sil ih n t uw dh ah n ao r th k ah n t r iy sil",
+        "perceived_phonemes": "- dh ih eh r f ao - s ih z w eh r ao r eh d iy m uw v ih ng k - ih n t uw dh ah n ao r th k ah n t r iy -"
+    },
+    "arctic_a0028.TextGrid": {
+        "words": "robbery bribery fraud",
+        "target_phonemes": "sil r aa b er iy sil b r ay b er iy sil f r ao d sil",
+        "perceived_phonemes": "- r aa b er iy - p r ay b er iy - f - uw t -"
+    },
+    "arctic_b0444.TextGrid": {
+        "words": "he didn't know what went on in the minds of his superiors",
+        "target_phonemes": "sil hh iy d ih d ah n t n ow sil hh w ah t w eh n t ao n sil ih n dh ah m ay n d z sil ah v hh ih z sil s uw p ih r iy er z sil",
+        "perceived_phonemes": "- hh iy d ih d ah n t n ow - hh w ah t w eh n t ao n - ih n z ah m ay n d z - ah v hh ih z - s uw p ih r iy er z -"
+    },
+    "arctic_a0121.TextGrid": {
+        "words": "they ate dinner at the fifth and rested for two hours",
+        "target_phonemes": "sil dh ey ey t sil d ih n er sil ae t dh ah f ih f th sil ah n d r eh s t ih d f ao r t uw aw r z sil",
+        "perceived_phonemes": "- dh ey ey t - d ih n er - ae t dh eh f ih f th - ah n d r eh s t ih d f ao r t uw aw r s -"
+    },
+    "arctic_a0120.TextGrid": {
+        "words": "my right foot feels like that of a chinese debutante",
+        "target_phonemes": "sil m ay r ay t f uh t sil f iy l z l ay k dh ae t ah v ah ch ay n iy z d eh b y ah t aa n t sil",
+        "perceived_phonemes": "- m ay r ay t f ow t - f iy l z l ay k dh ae t ah v ah ch ay n iy z d eh b y ah t aa n t -"
+    },
+    "arctic_a0115.TextGrid": {
+        "words": "he had no excuse for the feelings which were aroused in him",
+        "target_phonemes": "hh iy hh ae d n ow ih k s - k y uw z sil f ao r dh ah f iy l ih ng z sil w ih ch w er sil er aw z d ih n hh ih m sil",
+        "perceived_phonemes": "hh iy hh ae d n ow ih k s ih k y uw z - f ao r dh ah f iy l ih ng z - w ih ch w er - er ow z d ih n hh ih m -"
+    },
+    "arctic_a0441.TextGrid": {
+        "words": "violent life and athletic sports had never appealed to me",
+        "target_phonemes": "v ay l ah n t l ay f sil ah n d ae th - l eh t ih k s p ao r t s sil hh ae d n eh v er sil ah p iy l d t uw m iy sil",
+        "perceived_phonemes": "v ay l ah n t l ay f - ah n d ae th ah l eh t ih k s p ao r t s - hh ae d n eh v er - ah b iy l d t uw m iy -"
+    },
+    "arctic_a0548.TextGrid": {
+        "words": "also churches and preachers i had never known",
+        "target_phonemes": "sil ao l s ow sil ch er ch ah z sil ah n d p r iy ch er z ay hh ae d n eh v er n ow n sil",
+        "perceived_phonemes": "- ao l s ow - ch er ch ah s - ah n d p r eh ch er z ay hh ae d n eh v er n ow n -"
+    },
+    "arctic_b0438.TextGrid": {
+        "words": "they ran the canoe in and climbed the high earth bank",
+        "target_phonemes": "sil dh ey r ae n sil dh ah k ah n uw sil ih n sil ah n d k l ay m d sil dh ah hh ay sil er th sil b ae ng k sil",
+        "perceived_phonemes": "- dh ey r ah n - z ah k ah n uw - ih n - ah n d k l ay m d - z ah hh ay - er th - b ae ng k -"
+    },
+    "arctic_a0500.TextGrid": {
+        "words": "who the devil gave it to you to be judge and jury",
+        "target_phonemes": "sil hh uw dh ah d eh v ah l sil g ey v ih t sil t uw y uw sil t uw b iy jh ah jh sil ah n d jh uh r iy sil",
+        "perceived_phonemes": "- hh uw z ah d eh v ah l - g ey v ih t - t uw y uw - t uw b iy zh ah jh - ah n d zh uh r iy -"
+    },
+    "arctic_a0501.TextGrid": {
+        "words": "you're joking me sir the other managed to articulate",
+        "target_phonemes": "y uh r jh ow k ih ng - - m iy s er sil dh ah ah dh er m ae n ih jh d sil t uw aa r t ih k y ah l ey t sil",
+        "perceived_phonemes": "y uh r zh ow k ih ng g ah m iy s er - dh ah ah z er m ae n ih zh d - t uw aa r t ih k y ah l eh t -"
+    },
+    "arctic_a0054.TextGrid": {
+        "words": "there was nothing on the rock",
+        "target_phonemes": "sil dh eh r w ao z n ah th ih ng - sil ao n dh ah r aa k sil",
+        "perceived_phonemes": "- dh eh r w ao z n ah s ih ng k - ao n dh ah r ow k -"
+    },
+    "arctic_a0023.TextGrid": {
+        "words": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+        "target_phonemes": "sil ah k aa m b ah n ey sh ah n ah v k ah n ey d iy ah n k ae p ih t ah l k w ih k l iy sil ao r g ah n ay z d sil ah n d sil p ah t ih sh ah n d sil f ao r dh ah s ey m sil p r ih v l ih jh ih z sil",
+        "perceived_phonemes": "- ah k aa m b ah n ey sh ah n ah v k ah n ey d iy ah n k ae p ih t ah l k w ih k l iy - ao r g ah n ay z d - ah n d - p ah t ih sh ah n d - f ao r dh ah s ey m - p r ih v l ih jh ih z -"
+    },
+    "arctic_a0022.TextGrid": {
+        "words": "hardly were our plans made public before we were met by powerful opposition",
+        "target_phonemes": "hh aa r d l iy sil w er - aw r p l ae n z m ey d sil p ah b l ih k sil b iy f ao r w iy w er - m eh t sil b ay p aw er f ah l sil aa p ah z ih sh ah n sil",
+        "perceived_phonemes": "hh aa r d l iy - w eh r aw r p l ae n z m ey d - p ah b l ih k - b iy f ao r w iy w eh r m eh t - b ay p aw er f ah l - aa p ah z ih sh ah n -"
+    },
+    "arctic_b0495.TextGrid": {
+        "words": "we who have endured so much surely can endure a little more",
+        "target_phonemes": "sil w iy sil hh uw sil hh ae v ih n d uh r d s ow m ah ch sh uh r l iy sil k ae n ih n d uh r sil ah l ih t ah l m ao r sil",
+        "perceived_phonemes": "- w iy - hh uw - hh ae v ih n d uh r d s ow m ah ch sh uh r l iy - k ae n ih n d uh r - ah l ih t ah l m ao - -"
+    },
+    "arctic_b0494.TextGrid": {
+        "words": "never so strange a prophet came up to jerusalem",
+        "target_phonemes": "sil n eh v er sil s ow s t r ey n jh sil ah p r aa f ah t k ey m sil ah p sil t uw jh er uw s ah l ah m sil",
+        "perceived_phonemes": "- n eh v er - s ow s t r ey n jh - ah p r ow f ah t k ey m - ah p - t uw zh - uw s - l ah m -"
+    },
+    "arctic_b0434.TextGrid": {
+        "words": "the steward has just tendered me a respectful bit of advice",
+        "target_phonemes": "sil dh ah s t uw er d hh ae z jh ah s t sil t eh n d er d m iy sil ah r ih s p eh k t f ah l sil b ih t sil ah v sil ah d v ay s sil",
+        "perceived_phonemes": "- dh ah s t iy er d hh ae z zh ah s t - t eh n d er d m iy - ah r ih s p eh k t f ah l - b ih t - ao v - ae d v ay s -"
+    },
+    "arctic_b0307.TextGrid": {
+        "words": "we got few vegetables and fruits and became fish eaters",
+        "target_phonemes": "sil w iy g aa t f y uw sil v eh jh t ah b ah l z sil ah n d f r uw t s sil ah n d b iy k ey m sil f ih sh sil iy t er z sil",
+        "perceived_phonemes": "- w iy g aa t f y uw - v eh jh t ah b ah l z - ah n d f r uw t s - ah n d b iy k ey m - f ih sh - iy t er s -"
+    },
+    "arctic_a0059.TextGrid": {
+        "words": "his immaculate appearance was gone",
+        "target_phonemes": "hh ih z sil ih m ae k y uw l ih t sil ah p ih r ah n s w ao z g ao n sil",
+        "perceived_phonemes": "hh ih z - ih m ae k y uw l ey t - ah b ih r ah n s w ao z g ao n -"
+    },
+    "arctic_a0058.TextGrid": {
+        "words": "i came for information more out of curiosity than anything else",
+        "target_phonemes": "sil ay k ey m f ao r ih n f er m ey sh ah n m ao r aw t ah v sil k y uh r iy aa s ah t iy sil dh ae n eh n iy th ih ng - eh l s sil",
+        "perceived_phonemes": "- ay k ey m f ao - ih n f er m ey sh ah n m ao r aw t ah v - k y uh r iy eh s ah t iy - dh ae n eh n iy th ih ng g eh l s -"
+    },
+    "arctic_b0068.TextGrid": {
+        "words": "only the chance sound had led him to observe them",
+        "target_phonemes": "sil ow n l iy dh ah ch ae n s s aw n d hh ae d l eh d hh ih m sil t uw ah b z er v sil dh eh m",
+        "perceived_phonemes": "- ow n l iy dh ah ch ae n s s aw n d hh ae d l eh d hh ih m - t uw ah b z er v - dh eh m"
+    },
+    "arctic_a0082.TextGrid": {
+        "words": "his face was streaming with blood",
+        "target_phonemes": "hh ih z f ey s sil w ao z s t r iy m ih ng - sil w ih dh b l ah d sil",
+        "perceived_phonemes": "hh ih z f ey s - w ao z s t r iy m ih ng k - w ih dh b l ah t -"
+    },
+    "arctic_a0010.TextGrid": {
+        "words": "i'm playing a single hand in what looks like a losing game",
+        "target_phonemes": "sil ay m p l ey ih ng ah s ih ng g ah l hh ae n d ih n w ah t l uh k s l ay k sil ah l uw z ih ng g ey m sil",
+        "perceived_phonemes": "- ay m p l ey ih ng ah s ih ng g ah l hh ae n d ih n w ah t l uh k s l ay k - ah l uw z ih ng g ey m -"
+    },
+    "arctic_a0011.TextGrid": {
+        "words": "if i ever needed a fighter in my life i need one now",
+        "target_phonemes": "sil ih f sil ay eh v er n iy d ih d sil ah f ay t er ih n m ay l ay f sil ay n iy d w ah n n aw sil",
+        "perceived_phonemes": "- ih f - ay eh v ax n iy d ih d - ah f ay t er ih n m ay l ay f - ay n iy d w ah n n aw -"
+    },
+    "arctic_a0067.TextGrid": {
+        "words": "surely i will excuse you she cried",
+        "target_phonemes": "sil sh uh r l iy sil ay w ih l sil ih k s - k y uw z y uw sil sh iy k r ay d sil",
+        "perceived_phonemes": "- sh uh r l iy - ay w ih l - ih k s ah k y uw z y uw - sh iy k r ay d -"
+    },
+    "arctic_b0503.TextGrid": {
+        "words": "the scents of strange vegetation blew off the tropic land",
+        "target_phonemes": "sil dh ah s eh n t s ah v s t r ey n jh sil v eh jh ah t ey sh ah n b l uw ao f dh ah t r aa p ih k l ae n d sil",
+        "perceived_phonemes": "- dh ah s eh n t s ah v s t r ey n jh - v ih jh ah t ey sh ah n b l uw ao f z ah t r aa b ih k l ae n t -"
+    },
+    "arctic_a0126.TextGrid": {
+        "words": "each day she became a more vital part of him",
+        "target_phonemes": "sil iy ch d ey sil sh iy b iy k ey m sil ah m ao r v ay t ah l p aa r t ah v hh ih m sil",
+        "perceived_phonemes": "- eh ch d ey - sh iy b iy k ey m - ah m ao r v ay t ah l p aa r t ah v hh eh m -"
+    },
+    "arctic_a0127.TextGrid": {
+        "words": "it was a temptation but he resisted it",
+        "target_phonemes": "ih t w aa z ah t eh m - - t ey sh ah n sil b ah t hh iy sil r iy z ih s t ih d ih t sil",
+        "perceived_phonemes": "ih t w aa z ah t eh m b ah t ey sh ah n - b ah t hh iy - r iy s ih s t ih d eh t -"
+    },
+    "arctic_a0112.TextGrid": {
+        "words": "he was wounded in the arm",
+        "target_phonemes": "hh iy w aa z w uw n d ah d sil ih n dh ah aa r m",
+        "perceived_phonemes": "hh iy w aa z w ao n d ah d - ih n dh ah ao r m"
+    },
+    "arctic_a0113.TextGrid": {
+        "words": "i suppose you picked that lingo up among the indians",
+        "target_phonemes": "sil ay s ah p ow z sil y uw p ih k t dh ae t sil l ih ng g ow ah p sil ah m ah ng - sil dh ah ih n d iy ah n z sil",
+        "perceived_phonemes": "- ay s ah b ow z - y uw b ih k t dh ae t - l ih ng g ow ah p - ah m ah ng k - dh ah ih n d iy ah n z -"
+    },
+    "arctic_a0088.TextGrid": {
+        "words": "he made sure that the magazine was loaded and resumed his paddling",
+        "target_phonemes": "hh iy m ey d sh uh r dh ae t sil dh ah m ae g ah z iy n w ao z l ow d ah d sil ah n d sil r iy z - uw m d hh ih z sil p ae d l ih ng - sil",
+        "perceived_phonemes": "hh iy m ey d sh uh r dh ae t - dh ah m ae g ah z iy n w ao z l ow d ah d - ah n d - r iy s y uw m d hh ih s - b ae d l ih ng k -"
+    },
+    "arctic_a0089.TextGrid": {
+        "words": "the night glow was treacherous to shoot by",
+        "target_phonemes": "sil dh ah n ay t g l ow sil w ao z sil t r eh ch er ah s sil t uw sh uw t b ay sil",
+        "perceived_phonemes": "- dh ah n ay t g l uw - w ao z - t r eh ch r ah s - t uw sh uh t b ay -"
+    },
+    "arctic_a0053.TextGrid": {
+        "words": "suddenly his fingers closed tightly over the handkerchief",
+        "target_phonemes": "sil s ah d ah n l iy hh ih z f ih ng g er z sil k l ow z d sil t ay t l iy ow v er dh ah hh ae ng - k er ch iy f",
+        "perceived_phonemes": "- s ah d ah n l iy hh ih z f ih ng g er z - k l ow z d - t ay t l iy ow v er dh ah hh ae n t k er ch iy f"
+    },
+    "arctic_a0052.TextGrid": {
+        "words": "it was a curious coincidence",
+        "target_phonemes": "sil ih t w ao z sil ah k y uh r iy ah s sil k ow ih n s ih d ah n s sil",
+        "perceived_phonemes": "- ih t w ao z - ah k y uh r iy ah s - k ow ih n s ih d ah n s -"
+    },
+    "arctic_a0024.TextGrid": {
+        "words": "it was my reports from the north which chiefly induced people to buy",
+        "target_phonemes": "sil ih t w ao z m ay sil r ih p ao r t s f r ah m sil dh ah n ao r th sil hh w ih ch ch iy f l iy ih n d uw s t p iy p ah l t uw b ay sil",
+        "perceived_phonemes": "- ih t w ao z m ay - r ih p ao r t s f r ah m - dh ah n ao r th - hh w ih ch ch iy f l iy ih n d uw s t p iy p ah l t uw b ay -"
+    },
+    "arctic_a0025.TextGrid": {
+        "words": "i was about to do this when cooler judgment prevailed",
+        "target_phonemes": "sil ay w ao z ah b aw t t uw d uw dh ih s sil w eh n k uw l er sil jh ah jh m ah n t sil p r iy v ey l d sil",
+        "perceived_phonemes": "- ay w ao z ah b aw t t uw d uw dh ih s - w eh n k uw l er - jh ah jh m ah n t - b r iy v ey l d -"
+    },
+    "arctic_b0492.TextGrid": {
+        "words": "thus he turned the tenets and jargon of psychology back on me",
+        "target_phonemes": "sil dh ah s sil hh iy t er n - d dh ah t eh n ah t s sil ah n d jh aa r g ah n sil ah v s ay k aa l ah jh iy b ae k sil ao n m iy sil",
+        "perceived_phonemes": "- z uw s - hh iy t er n ah d dh ah t eh n ah t s - ah n d zh aa r g ah n - ah v s ay k aa l ah zh iy p ae k - ao n m iy -"
+    },
+    "arctic_a0007.TextGrid": {
+        "words": "and you always want to see it in the superlative degree",
+        "target_phonemes": "sil ae n d y uw sil ao l w iy z sil w ao n t t uw s iy ih t sil ih n dh ah sil s uh p er l ah t ih v d ih g r iy sil",
+        "perceived_phonemes": "- ae n d y uw - ao l w iy z - w ao n t t uw s iy eh t - eh n dh ah - s uh b er l ah t ih v d ih g r iy -"
+    },
+    "arctic_a0006.TextGrid": {
+        "words": "god bless em i hope i'll go on seeing them forever",
+        "target_phonemes": "g aa d b l eh s sil - ah m sil ay sil hh ow p sil ay l sil g ow ao n s iy ih ng dh eh m f er eh v er sil",
+        "perceived_phonemes": "g aa d b l eh s - dh ah m - ay - hh ow p - ay l - g ow ao n s iy ih ng dh eh m f er eh v ah -"
+    },
+    "arctic_a0095.TextGrid": {
+        "words": "a big canvas tent was the first thing to come within his vision",
+        "target_phonemes": "sil ah b ih g k ae n v ah s sil t eh n t w ao z dh ah f er s t th ih ng - sil t uw sil k ah m sil w ih th ih n hh ih z v ih zh ah n sil",
+        "perceived_phonemes": "- ah b ih g k ae n v ah s - t eh n t w ao z dh ah f er s t th ih ng k - t uw - k ah m - w ih th ih n hh ih z v ih zh ah n -"
+    },
+    "arctic_a0094.TextGrid": {
+        "words": "he had barely entered this when he saw the glow of a fire",
+        "target_phonemes": "hh iy hh ae d b eh r l iy eh n t er d sil dh ih s sil w ih n hh iy s ao dh ah g l ow sil ah v ah f ay er sil",
+        "perceived_phonemes": "hh iy hh ae d p eh r l iy eh n t er d - dh ih s - w ih n hh iy s ow dh ah g l ow - ah v ah f ay ah -"
+    },
+    "arctic_b0310.TextGrid": {
+        "words": "a little treatment massage with some help from the doctor",
+        "target_phonemes": "sil ah l ih t ah l t r iy t m ah n t sil m ah s aa zh sil w ih th s ah m hh eh l p f r ah m dh ah d ao k t er sil",
+        "perceived_phonemes": "- ah l ih t ah l t r iy t m ah n t - m ah s ae zh - w ih th s ah m hh eh l p f r ah m z ah d ao k t er -"
+    },
+    "arctic_a0039.TextGrid": {
+        "words": "the ship should be in within a week or ten days",
+        "target_phonemes": "sil dh ah sh ih p sil sh uh d b iy ih n w ih th ih n sil ah w iy k ao r sil t eh n d ey z sil",
+        "perceived_phonemes": "- dh ah sh ih p - sh uh d b iy ih n w ih th ih n - ah w iy k ao r - t ih n d ey z -"
+    },
+    "arctic_a0038.TextGrid": {
+        "words": "we will have to watch our chances",
+        "target_phonemes": "sil w iy w ih l hh ae v t ah w ao ch sil aw r ch ae n s ih z sil",
+        "perceived_phonemes": "- w iy w ih l hh ae v t ah w ao ch - aw r ch ae n s ih z -"
+    },
+    "arctic_a0131.TextGrid": {
+        "words": "providence had delivered him through the maelstrom",
+        "target_phonemes": "p r aa v ah d ah n s sil hh ae d d ih l ih v er d hh ih m sil th r uw sil dh ah m ey l - s t r ah - m sil",
+        "perceived_phonemes": "b r ow v ah d ah n s - hh ae d d ih l eh v er d hh ih m - th r uw - dh ah m ey l ah s t - ao r m -"
+    },
+    "arctic_b0455.TextGrid": {
+        "words": "his reward should have been peace and repose",
+        "target_phonemes": "hh ih z r ih w ao r d sil sh uh d hh ae v sil b ih n sil p iy s sil ah n d sil r iy p ow z sil",
+        "perceived_phonemes": "hh ih z r uh w ao r d - sh uh d hh ae v - p ih n - b iy s - ah n d - d iy p ow s -"
+    },
+    "arctic_a0130.TextGrid": {
+        "words": "she was his now forever",
+        "target_phonemes": "sh iy w ao z hh ih z n aw sil f er eh v er sil",
+        "perceived_phonemes": "sh iy w ao z hh ih z n aw - f er eh v ah -"
+    },
+    "arctic_b0367.TextGrid": {
+        "words": "any average young fellow can teach himself in a week",
+        "target_phonemes": "sil eh n iy ae v er ih jh sil y ah ng - f eh l ow sil k ae n sil t iy ch hh ih m s eh l f sil ih n ah w iy k sil",
+        "perceived_phonemes": "- eh n iy ae v er ih ch - y ah ng k f eh l ow - k ae n - t iy ch hh ih m s eh l f - ih n ah w iy k -"
+    },
+    "arctic_a0071.TextGrid": {
+        "words": "what was the object of your little sensation",
+        "target_phonemes": "w ah t w ao z sil dh ah aa b jh eh k t sil ah v y uh r l ih t ah l sil s eh n s ey sh ah n sil",
+        "perceived_phonemes": "w ah t w ao z - dh ah aa b zh eh k t - ah v y uh r l ih t ah l - s eh n s ey sh ah n -"
+    },
+    "arctic_b0428.TextGrid": {
+        "words": "the history of our westward faring race is written in it",
+        "target_phonemes": "sil dh ah hh ih s t er iy sil ah v sil aw r sil w eh s t w er d sil f eh r iy ng - r ey s ih z r ih t ah n ih n sil ih t sil",
+        "perceived_phonemes": "- dh ah hh eh s t r iy - ah v - aw r - w eh s t w er d - f eh r iy ng g r ey s ih z r ih t ah n eh n - eh t -"
+    },
+    "arctic_a0045.TextGrid": {
+        "words": "he moved away as quietly as he had come",
+        "target_phonemes": "hh iy m uw v d ah w ey ae z k w ay ah t l iy sil ae z hh iy hh ae d sil k ah m sil",
+        "perceived_phonemes": "hh iy m uw v d ah w ey ae z k w ay ah t l iy - ae z hh iy hh ae d - k ah m -"
+    },
+    "arctic_a0105.TextGrid": {
+        "words": "only it is so wonderful so almost impossible to believe",
+        "target_phonemes": "ow n l iy ih t ih z s ow w ah n d er f ah l sil s ow ao l m ow s t sil ih m p aa s ah b ah l t uw b ih l iy v sil",
+        "perceived_phonemes": "ow n - iy ih t ih z s ow w ah n d er f ah l - s ow ao l m ow s t - ih m p ow s ah b ah l t uw p ih l iy f -"
+    },
+    "arctic_b0461.TextGrid": {
+        "words": "by virtue of that power we shall remain in power",
+        "target_phonemes": "sil b ay - v er ch uw sil ah v dh ae t sil p aw er w iy sh ae l r ih m ey n sil ih n p aw er sil",
+        "perceived_phonemes": "- b ay ah v er sh uw - ah v dh ae t - p aw er w iy sh ae l r ih m ey n - ih n p aw er -"
+    },
+    "arctic_a0104.TextGrid": {
+        "words": "she was sleeping under his protection as sweetly as a child",
+        "target_phonemes": "sh iy w ao z s l iy p ih ng - sil ah n d er hh ih z p er t eh k sh ah n sil ae z sil s w iy t l iy ae z ah ch ay l d sil",
+        "perceived_phonemes": "sh iy w ao z s l iy b ih ng k - ah n d er hh ih z p er t eh k sh ah n - ae z - s w iy t l iy ae z ah ch ay l d -"
+    },
+    "arctic_a0426.TextGrid": {
+        "words": "they don't know the length of time of incubation",
+        "target_phonemes": "sil dh ey d ow n n ow sil dh ah l eh ng th ah v t ay m sil ah v sil ih ng k y uw b ey sh ah n sil",
+        "perceived_phonemes": "- dh ey d ow n n ow - dh ah l eh n s ah v d ay m - ah v - ih ng k - uw b ey sh ah n -"
+    },
+    "arctic_b0324.TextGrid": {
+        "words": "not till the twentieth of may did the river break",
+        "target_phonemes": "sil n aa t t ih l sil dh ah t w eh n t iy ah th ah v m ey sil d ih d dh ah r ih v er sil b r ey k sil",
+        "perceived_phonemes": "- n aa - t eh l - dh ah t w eh n t iy ah s ah v m ey - d eh d z ah r ih f er - p r ey k -"
+    },
+    "arctic_a0032.TextGrid": {
+        "words": "since then some mysterious force has been fighting us at every step",
+        "target_phonemes": "sil s ih n s sil dh eh n sil s ah m sil m ih s t ih r iy ah s sil f ao r s hh ae z b ih n f ay t ih ng - sil ah s ae t sil eh v r iy s t eh p sil",
+        "perceived_phonemes": "- s ih n s - dh eh n - s ah m - m ay s t - r eh - s - f ao r s hh ae z b ih n f ay t ih ng k - ah s ae t - eh v r iy s t eh p -"
+    }
+}
