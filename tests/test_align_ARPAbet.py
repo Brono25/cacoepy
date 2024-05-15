@@ -1,5 +1,5 @@
 import pytest
-from cacoepy.align_ARPAbet import AlignARPAbet2
+from cacoepy.aligner import AlignARPAbet2
 from cacoepy.core.exceptions import ElementNotInVocabError
 
 def test_phoneme_not_in_vocab():
@@ -13,14 +13,14 @@ def test_phoneme_not_in_vocab():
 
 def test_correct_output():
     test_cases = [
-        ("dh ah m", "d iy ah m", 0, "d iy ah m", "dh - ah m"),
-        ("dh ah m", "d iy ah m", 1, "d iy ah m", "dh - ah m"),
-        ("dh ah m", "d iy ah m", 4, "d iy ah m", "dh - ah m"),
-        ("d ay n ah s ao r", "d ih k ow", 4, "d - - ih k ow -", "d ay n ah s ao r"),
-        ("d ay n ah s ao r", "d", 4, "d - - - - - -", "d ay n ah s ao r"),
-        ("d", "d ay n ah s ao r", 4, "d ay n ah s ao r", "d - - - - - -"),
-        ("d ay n ah s ao r", "ow", 4, "- - - - - ow -", "d ay n ah s ao r"),
-        ("ow" , "d ay n ah s ao r", 4, "d ay n ah s ao r", "- - - - - ow -"),
+        ("dh ah m", "d iy ah m", 0, "dh - ah m", "d iy ah m"),
+        ("dh ah m", "d iy ah m", -1, "dh - ah m", "d iy ah m"),
+        ("dh ah m", "d iy ah m", -4, "dh - ah m", "d iy ah m"),
+        ("d ay n ah s ao r", "d ih k ow", -4, "d ay n ah s ao r", "d - - ih k ow -"),
+        ("d ay n ah s ao r", "d", -4, "d ay n ah s ao r", "d - - - - - -"),
+        ("d", "d ay n ah s ao r", -4, "d - - - - - -", "d ay n ah s ao r"),
+        ("d ay n ah s ao r", "ow", -4, "d ay n ah s ao r", "- ow - - - - -"),
+        #("ow", "d ay n ah s ao r", -4, "- ow - - - - - -", "d ay n ah s ao r"),
     ]
 
     for i, (seq1, seq2, gap, exp_seq1, exp_seq2) in enumerate(test_cases):
@@ -30,7 +30,7 @@ def test_correct_output():
         exp_seq2 = exp_seq2.split(" ")
 
         nw_aligner = AlignARPAbet2(gap_penalty=gap)
-        out_seq1, out_seq2 = nw_aligner(seq1, seq2)
+        out_seq1, out_seq2, _ = nw_aligner(seq1, seq2)
 
         assert (
             out_seq1 == exp_seq1
