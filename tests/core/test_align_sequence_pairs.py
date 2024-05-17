@@ -8,7 +8,6 @@ def test_reference_mismatch():
     partner_a = "x -".split(" ")
     ref_b = "a a - a".split(" ")
     partner_b = "x".split(" ")
-
     with pytest.raises(AlignSequencePairError):
         a, b, c = align_sequence_pairs(ref_a, partner_a, ref_b, partner_b)
 
@@ -18,7 +17,6 @@ def test_reference_partner_mismatch():
     partner_a = "x - -".split(" ")
     ref_b = "a a -".split(" ")
     partner_b = "x - x".split(" ")
-
     with pytest.raises(AlignSequencePairError):
         a, b, c = align_sequence_pairs(ref_a, partner_a, ref_b, partner_b)
 
