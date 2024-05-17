@@ -14,3 +14,9 @@ class TracebackIndexError(Exception):
     """Exception raised for indexing error during traceback"""
     def __init__(self, message):
         super().__init__(message)
+
+
+class AlignSequencePairError(Exception):
+    """Exception raised for errors associated with align_sequence_pairs"""
+    def __init__(self, message):
+        super().__init__(message)
