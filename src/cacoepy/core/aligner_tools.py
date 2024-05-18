@@ -1,6 +1,15 @@
 from cacoepy.core.exceptions import AlignSequencePairError
+from typing import List, Tuple
 
-def align_sequence_pairs(ref_a, partner_a, ref_b, partner_b, gap_char="-"):
+
+
+def align_sequence_pairs(
+        ref_a: List[str], 
+        partner_a: List[str], 
+        ref_b: List[str], 
+        partner_b: List[str], 
+        gap_char: str ="-"
+        ) -> Tuple[List[str], List[str], List[str]]:
     """
     Align two pairs of sequences where ref_a and ref_b are the same sequence with different padding.
 

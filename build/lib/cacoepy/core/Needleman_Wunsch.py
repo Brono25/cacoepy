@@ -1,30 +1,11 @@
-from typing import Callable, Dict, Union, List, Tuple
 import inspect
+
 from cacoepy.core.utils import pretty_matrices
 from cacoepy.core.exceptions import InvalidSimilarityError, TracebackIndexError
 
 
 class NeedlemanWunschConfig:
-    def __init__(
-            self, 
-            similarity: Union[Callable[[str, str], float], Dict[str, Dict[str, float]]], 
-            gap_penalty:float
-        ) -> None:
-        """
-        Configuration class for the Needleman-Wunsch algorithm.
-
-        This class handles the configuration for the Needleman-Wunsch algorithm,
-        including the similarity scoring and gap penalty.
-
-        Args:
-            similarity (Union[Callable[[str, str], float], Dict[str, Dict[str, float]]]): 
-                A function or a 2D dictionary to compute similarity scores between characters.
-            gap_penalty (float): The penalty score for introducing gaps in the alignment.
-
-        Raises:
-            InvalidSimilarityError: If the similarity parameter is neither a callable nor a 2D dictionary.
-            InvalidSimilarityError: If the similarity function does not have exactly two arguments.
-        """
+    def __init__(self, similarity, gap_penalty):
         self.gap_penalty = gap_penalty
         if callable(similarity):
             self._validate_callable(similarity)
@@ -55,12 +36,6 @@ class NeedlemanWunschConfig:
 
 
 class NeedlemanWunsch2D:
-    """
-    Performs sequence alignment using the Needleman-Wunsch algorithm with a given configuration.
-
-    Args:
-        config (NeedlemanWunschConfig): Configuration object containing the scoring function or matrix and gap penalty.
-    """
     def __init__(self, config: NeedlemanWunschConfig):
         self.LEFT = "←"
         self.UP = "↑"
@@ -70,29 +45,14 @@ class NeedlemanWunsch2D:
         self.config = config
         self._path_idx = []
 
-    def __call__(
-            self, 
-            seq1: List[str], 
-            seq2: List[str]
-        ) -> Tuple[List[str], List[str], float]:
-        """
-        Aligns two sequences using the Needleman-Wunsch algorithm.
-
-        Args:
-            seq1 (str): The first sequence to align.
-            seq2 (str): The second sequence to align.
-
-        Returns:
-            Tuple[List[str], List[str], float]: A tuple containing the aligned first sequence, aligned second sequence, and the alignment score.
-        """
+    def __call__(self, seq1, seq2):
         self.left_seq = [""] + seq1
         self.top_seq = [""] + seq2
         self.N_col = len(self.top_seq)
         self.N_row = len(self.left_seq)
         self.score_matrix, self.trace_matrix = self._init_score_and_trace_matrix() 
         self._fill_score_matrix()
-        aligned_left_seq, aligned_top_seq, score = self._traceback()
-        return aligned_left_seq, aligned_top_seq, score
+        return self._traceback()
 
     def _init_score_and_trace_matrix(self):
         score_matrix = [[0] * self.N_col for _ in range(self.N_row)]
@@ -130,6 +90,7 @@ class NeedlemanWunsch2D:
         return max_score, direction
 
     def _choose_path(self, score):
+        """Choose among paths with equal scores by following a predefined priority: diagonal, left, then up."""
         max_value = max(score.values())
         max_keys = [key for key, value in score.items() if value == max_value]
         if self.UP in max_keys:
