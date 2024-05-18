@@ -14,7 +14,18 @@ def align_prediction_to_annotation_and_target(
     gap_penalty: float =-5,
     ) -> Tuple[List[str], List[str], List[str]]:
     """
-    Align the phoneme predictions from a Mispronunciation Diagnosis and Detection (MDD) system to annotated phonemes of mispronounced speech and their aligned target phonemes.
+    Align the phoneme predictions from a Mispronunciation Diagnosis and Detection (MDD) system
+    to annotated phonemes of mispronounced speech and their aligned target phonemes.
+
+    Parameters:
+    - prediction (List[str]): Predicted phonemes by the MDD system.
+    - annotation_aligned_with_target (List[str]): Annotated phonemes aligned with target phonemes.
+    - target_aligned_with_annotation (List[str]): Target phonemes aligned with annotated phonemes.
+    - gap_char (str, optional): Character representing gaps in alignments. Defaults to "-".
+    - gap_penalty (float, optional): Penalty for introducing gaps in alignment. Defaults to -5.
+
+    Returns:
+    - Tuple[List[str], List[str], List[str]]: Aligned prediction, annotation, and target phonemes.
     """
     bare_annotation = list(filter(lambda x: x != gap_char, annotation_aligned_with_target))
     aligner = AlignARPAbet2(gap_penalty=gap_penalty)
