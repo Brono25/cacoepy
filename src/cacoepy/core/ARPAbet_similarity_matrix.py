@@ -3,7 +3,16 @@ import json
 
 
 def arpabet_similarity_matrix():
+    """
+    Generates a similarity matrix for ARPAbet phonemes based on their attributes.
 
+    This function constructs a phoneme similarity matrix by loading phoneme data from a JSON file,
+    creating binary vectors for each phoneme based on their attributes, and then calculating similarity
+    scores between each pair of phonemes using the cosine similarity method.
+
+    Returns:
+        dict: A dictionary where keys are phoneme pairs and values are their similarity scores.
+    """
     def build_scoring_matrix():
         def load_phoneme_data(file):
             with open(file, "r") as file:
