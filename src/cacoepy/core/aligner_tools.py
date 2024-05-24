@@ -11,7 +11,8 @@ def align_sequence_pairs(
         gap_char: str ="-"
         ) -> Tuple[List[str], List[str], List[str]]:
     """
-    Align two pairs of sequences where ref_a and ref_b are the same sequence with different padding.
+    Align two pairs of sequences where ref_a and ref_b are the same sequence 
+    with different padding.
 
     Parameters:
         ref_a (list): The reference sequence aligned with partner_a.

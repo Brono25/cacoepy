@@ -22,8 +22,9 @@ class NeedlemanWunschConfig:
             gap_penalty (float): The penalty score for introducing gaps in the alignment.
 
         Raises:
-            InvalidSimilarityError: If the similarity parameter is neither a callable nor a 2D dictionary.
-            InvalidSimilarityError: If the similarity function does not have exactly two arguments.
+            InvalidSimilarityError: If the similarity parameter is neither a callable nor a 2D 
+            dictionary. InvalidSimilarityError: If the similarity function does not have 
+            exactly two arguments.
         """
         self.gap_penalty = gap_penalty
         if callable(similarity):
@@ -59,7 +60,8 @@ class NeedlemanWunsch2D:
     Performs sequence alignment using the Needleman-Wunsch algorithm with a given configuration.
 
     Args:
-        config (NeedlemanWunschConfig): Configuration object containing the scoring function or matrix and gap penalty.
+        config (NeedlemanWunschConfig): Configuration object containing the scoring function 
+        or matrix and gap penalty.
     """
     def __init__(self, config: NeedlemanWunschConfig):
         self.LEFT = "←"
@@ -83,7 +85,8 @@ class NeedlemanWunsch2D:
             seq2 (str): The second sequence to align.
 
         Returns:
-            Tuple[List[str], List[str], float]: A tuple containing the aligned first sequence, aligned second sequence, and the alignment score.
+            Tuple[List[str], List[str], float]: A tuple containing the aligned 
+            first sequence, aligned second sequence, and the alignment score.
         """
         self.left_seq = [""] + seq1
         self.top_seq = [""] + seq2

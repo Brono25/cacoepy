@@ -1,5 +1,8 @@
 class ElementNotInVocabError(Exception):
-    """Exception raised when a sequence element is not found in the vocabulary of the Similarity matrix."""
+    """
+    Exception raised when a sequence element is not found in the 
+    vocabulary of the Similarity matrix.
+    """
     def __init__(self, message):
         super().__init__(message)
 

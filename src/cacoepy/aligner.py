@@ -72,8 +72,8 @@ class AlignARPAbet2:
     """
     Aligns two sequences of ARPAbet phonemes using the Needleman-Wunsch algorithm.
 
-    This class uses a predefined similarity matrix for ARPAbet phonemes and a configurable gap penalty
-    to perform sequence alignment with the Needleman-Wunsch algorithm.
+    This class uses a predefined similarity matrix for ARPAbet phonemes and a configurable 
+    gap penalty to perform sequence alignment with the Needleman-Wunsch algorithm.
 
     Args:
         gap_penalty (float): The penalty score for introducing gaps in the alignment.
@@ -89,14 +89,17 @@ class AlignARPAbet2:
 
     def __call__(self, seq1: List[str], seq2: List[str])->Tuple[List[str], List[str], float]:
         """
-        Aligns two sequences of ARPAbet phonemes using the Needleman-Wunsch algorithm and a phoneme similarity matrix.
+        Aligns two sequences of ARPAbet phonemes using the Needleman-Wunsch algorithm 
+        and a phoneme similarity matrix.
 
         Args:
             seq1 (str): The first sequence to align.
             seq2 (str): The second sequence to align.
 
         Returns:
-            Tuple[List[str], List[str], float]: A tuple containing the aligned first sequence, aligned second sequence, and the alignment score. If the phonemes are not in the vocabulary, returns (None, None, None).
+            Tuple[List[str], List[str], float]: A tuple containing the aligned first sequence, 
+            aligned second sequence, and the alignment score. If the phonemes are not in the vocabulary, 
+            returns (None, None, None).
         """
         if self._is_phonemes_in_vocab(seq1) and self._is_phonemes_in_vocab(seq2):
             aligned_seq1, aligned_seq2, score = self._needleman_wunsch2d(
