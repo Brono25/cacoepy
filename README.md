@@ -46,6 +46,7 @@ Given three sets of phoneme sequences:
 - `target`: The phonemes the speaker is attempting to say.
 - `annotation`: The annotation of how the speaker pronounced the target.
 - `prediction`: The output of an MDD system predicting what the speaker said.
+
 This function aligns the prediction sequence to the annotation sequence while preserving the existing alignment between annotation and target.
 
 ```python
