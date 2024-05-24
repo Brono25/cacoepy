@@ -5,7 +5,7 @@ ___
 
 ## Installation
 Download this repository and then run:
-`pip install .`
+`pip install cacoepy`
 
 
 ## Phoneme Alignment
