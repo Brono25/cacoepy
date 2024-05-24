@@ -14,7 +14,7 @@ pip install cacoepy
 ## Usage
 ### AlignARPAbet2
 The `AlignARPAbet2` class is used to align two sequences of ARPAbet phonemes, taking into account phoneme similarities. Typically sequence aligners focus on identifying matches and mismatches. However, for a more realistic alignment of phonemes in mispronounced speech versus the intended phonemes, it is important to consider the similarity between phoneme pairs.
-&nbsp;
+<br>
 When creating the instance, specify a gap penalty. A more negative value discourages the insertion of gaps.
 ```python
 from cacoepy.aligner import AlignARPAbet2
@@ -46,7 +46,7 @@ Given three sets of phoneme sequences:
 - `target`: The phonemes the speaker is attempting to say.
 - `annotation`: The annotation of how the speaker pronounced the target.
 - `prediction`: The output of an MDD system predicting what the speaker said.
-&nbsp;
+<br>
 This function aligns the prediction sequence to the annotation sequence while preserving the existing alignment between annotation and target.
 
 ```python
