@@ -1,8 +1,6 @@
 from cacoepy.core.exceptions import AlignSequencePairError
 from typing import List, Tuple
 
-
-
 def align_sequence_pairs(
         ref_a: List[str], 
         partner_a: List[str], 
