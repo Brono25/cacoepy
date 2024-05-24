@@ -39,7 +39,7 @@ In this example, many of the phonemes are substituted or deleted in this childâ€
 th  er  m  aa  m  ah  t  er
 uw  ao  m  eh  d  -   -  er
 ```
-Where it only aligns based on exact matches.
+Where it only aligns based on exact matches. See how phoneme similarity is calculated [here](docs/similarity_matrix.md).
 
 ### align_prediction_to_annotation_and_target
 Given three sets of phoneme sequences:
