@@ -10,7 +10,7 @@ with open(ROOT / "requirements.txt") as f:
 setup(
     name="cacoepy",
     version="1.0.0",
-    description="A Python module for aligning mispronounced phonemes.",
+    description="A small collection of tools related to mispronunciation detection and diagnosis (MDD) systems.",
     long_description=README,
     long_description_content_type="text/markdown",
     author="Bronston Ashford",
