@@ -78,7 +78,6 @@ if __name__ == "__main__":
     plt.imshow(matrix, cmap="inferno", interpolation="none")
     plt.colorbar()
 
-
     plt.xticks(ticks=np.arange(len(keys)), labels=keys)
     plt.yticks(ticks=np.arange(len(keys)), labels=keys)
 
@@ -90,11 +89,9 @@ if __name__ == "__main__":
     keys = data.keys()
     matrix = np.array([[data[row][col] for col in keys] for row in keys])
 
-    
     plt.figure(figsize=(8, 8))
     plt.imshow(matrix, cmap="viridis", interpolation="none")
     plt.colorbar()
-
 
     plt.xticks(ticks=np.arange(len(keys)), labels=keys)
     plt.yticks(ticks=np.arange(len(keys)), labels=keys)
