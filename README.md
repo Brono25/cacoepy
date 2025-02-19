@@ -1,5 +1,8 @@
 # cacoepy
-cacoepy is a small collection of tools related to mispronunciation detection and diagnosis (MDD) systems.
+**cacoepy** *noun* [ *kuh-koh-uh-pee* ]  
+*Bad or incorrect pronunciation.*  
+
+**cacoepy** is a collection of tools I have developed—or plan to develop—to assist in working with mispronunciation detection and diagnosis (MDD) systems.
 
 ___
 
@@ -41,9 +44,9 @@ uw  ao  m  eh  d  -   -  er
 Where it only aligns based on exact matches.
 
 ### Implementation Details
-The `AlignARPAbet2` uses the **Needleman-Wunsch** algorithm with a custom similarity matrix for assigning scores to phoneme pairs. To generate the similarity matrix, the phonemes are broken down into their 35 attributes, which describe how they are articulated. Each phoneme may have several attributes each (see 
-[here](data/ARPAbet_mapping.json) for the breakdown). By signifying which attributes are present or not, each phoneme is represented as a vector in a 35-dimensional attribute space. Then, the cosine similarity is calculated between each pair of phoneme vectors and placed into a lookup table to be used to inform the **Needleman-Wunsch** algorithm during alignment.
-A visual representation of the similarity matrix is shown below. The clear separation of consonants and vowels is apparent in the sub-squares.
+The `AlignARPAbet2` tool uses the **Needleman-Wunsch** algorithm with a custom similarity matrix to score phoneme pairs. This matrix is created by breaking phonemes down into **35 articulatory attributes** that describe how they are produced. Each phoneme is represented as a **35-dimensional one-hot encoded vector**, where each dimension corresponds to the presence (1) or absence (0) of a specific attribute (see [`ARPAbet_mapping.json`](data/ARPAbet_mapping.json) for details).  
+The **cosine similarity** between these vectors is calculated for every phoneme pair and stored in a lookup table. This table helps the **Needleman-Wunsch** algorithm align phonemes more accurately.  
+The visual representation below shows the similarity matrix, where consonants and vowels form distinct sub-groups.  
 
 <p align="center">
   <a href="assets/ARPAbet_similarity_matrix_darkmode.png" target="_blank">
