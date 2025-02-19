@@ -2,7 +2,7 @@
 **cacoepy** *noun* [ *kuh-koh-uh-pee* ]  
 *Bad or incorrect pronunciation.*  
 
-**cacoepy** is a collection of tools I have developed—or plan to develop—to assist in working with mispronunciation detection and diagnosis (MDD) systems.
+A collection of tools I have developed—or plan to develop—to assist in working with mispronunciation detection and diagnosis (MDD) systems.
 
 ___
 
