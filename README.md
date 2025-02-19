@@ -10,7 +10,6 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install cacopey
 pip install cacoepy
 ```
 
-
 ## Usage
 ### AlignARPAbet2
 The `AlignARPAbet2` class is used to align two sequences of ARPAbet phonemes, taking into account phoneme similarities. Typically sequence aligners focus on identifying matches and mismatches. However, for a more realistic alignment of phonemes in mispronounced speech versus the intended phonemes, it is important to consider the similarity between phoneme pairs.
@@ -39,7 +38,19 @@ In this example, many of the phonemes are substituted or deleted in this childâ€
 th  er  m  aa  m  ah  t  er
 uw  ao  m  eh  d  -   -  er
 ```
-Where it only aligns based on exact matches. Further implementation details can be found [here](docs/similarity_matrix.md).
+Where it only aligns based on exact matches.
+
+The `AlignARPAbet2` uses the **Needleman-Wunsch** algorithm with a custom similarity matrix for assigning scores to phoneme pairs. To generate the similarity matrix, the phonemes are broken down into their 35 attributes, which describe how they are articulated. Each phoneme may have several attributes each (see `data/ARPAbet_mapping.json` for the breakdown). By signifying which attributes are present or not, each phoneme is represented as a vector in a 35-dimensional attribute space. Then, the cosine similarity is calculated between each pair of phoneme vectors and placed into a lookup table to be used to inform the **Needleman-Wunsch** algorithm during alignment.
+A visual representation of the similarity matrix is shown below. The clear separation of consonants and vowels is apparent in the sub-squares.
+
+<p align="center">
+  <a href="assets/ARPAbet_similarity_matrix_darkmode.png" target="_blank">
+    <img src="assets/ARPAbet_similarity_matrix_darkmode.png" alt="Similarity Matrix" width="400">
+  </a>
+</p>
+
+To use the scoring matrix with a different alignment algorithm, you can access the similarity matrix in JSON format [here](data/arpabet_similarity.json). Alternatively, you can generate the similarity matrix by running this [script](src/cacoepy/core/ARPAbet_similarity_matrix.py).
+
 
 ### align_prediction_to_annotation_and_target
 Given three sets of phoneme sequences:
